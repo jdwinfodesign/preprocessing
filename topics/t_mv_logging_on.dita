@@ -1,0 +1,77 @@
+<!DOCTYPE task PUBLIC "urn:pubid:jdwinfodesign.com:doctypes:dita:dtd:task" "task.dtd">
+<task id="t_mv_logging_on" xml:lang="en-us">
+    <title>Logging on to MobileView</title>
+    <shortdesc>To log on to MobileView,
+        you must open the MobileView
+        application and connect to the ClusterControl
+        server.</shortdesc>
+    <prolog>
+        <metadata>
+            <prodinfo>
+                <prodname>MobileView</prodname>
+                <vrmlist>
+                    <vrm version="1.1" release="GA" modification="b"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+        <metadata>
+            <keywords>
+                <indexterm>MobileView<indexterm>logging in</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq>
+            <p>Make sure that you have your username, password, and the name of the server that you want to connect to.</p>
+        </prereq>
+        <context>
+            <p>Once you are logged on, you can log off and disconnect from a particular project without closing 
+					MobileView. Logging off without closing
+                the application is helpful if you plan to log on again using a different username
+                and password.</p>
+            <note>You might automatically be logged off after a period of inactivity.</note>
+        </context>
+        <steps>
+            <stepsection>To log on to MobileView:</stepsection>
+            <step>
+                <cmd>To open MobileView,
+                    click <menucascade>
+                        <uicontrol>Start</uicontrol>
+                        <uicontrol>All programs</uicontrol>
+                    </menucascade>Company Name
+                    MobileView.</cmd>
+                <info>You will see the End User Login
+                    Screen.            <fig id="fig_jzz_ykh_mr">
+                        <title id="title_kn2_tkh_mr">End User Login
+                            Screen</title>
+                        <image href="../images/ThunderBird-Login-sm.png" id="image_mfx_rbh_mr"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>In the dialog box, do
+                    one of the following:</cmd>
+                <choices>
+                    <choice>Enter your MobileView
+                        username and password.</choice>
+                    <choice>Log on using your Windows user account by selecting the <uicontrol>Windows</uicontrol> selection button.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>In the directory field, enter the name or IP address of the main Product Name
+                    Cluster Control
+                    server.</cmd>
+            </step>
+            <step>
+                <cmd>If you are required to log on with supervision, your supervisor must provide a
+                    username and password.</cmd>
+            </step>
+            <step>
+                <cmd>Click log in button.</cmd>
+            </step>
+            <step>
+                <cmd>To log off, click the <uicontrol>Home</uicontrol> tab and
+                    then click <uicontrol>Log Off</uicontrol> button.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
