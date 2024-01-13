@@ -1,2 +1,0 @@
-# preprocess
-Custom DITA preprocessing

@@ -15,7 +15,8 @@
     </metadata>
     <metadata>
       <keywords>
-        <indexterm>MobileView<indexterm>system diagnostics tab</indexterm></indexterm>
+        <indexterm>MobileView<indexterm>system
+            diagnostics tab</indexterm></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -24,12 +25,12 @@
       actively engaged with your project's tasks. The data views provide details regarding the
       current status and projected performance of the cluster modules.</p>
     <fig id="fig_ovw_2lh_mr">
-      <title>MobileView System Support Tab: Troubleshooting</title>
+      <title>MobileView System
+        Support Tab: Troubleshooting</title>
       <image href="../images/ThunderBird-Troubleshooting-sm.png" id="image_vlb_mch_mr"/>
     </fig>
     <p>The System Diagnostic troubleshooting agent will run a series of interactive tests to
-      identify and isolate problems within the ClusterView grid. A typical interaction would proceed
-      as follows:<ul id="ul_ht4_jns_mr">
+      identify and isolate problems within the ClusterView grid. A typical interaction would proceed as follows:<ul id="ul_ht4_jns_mr">
         <li>User selects the <uicontrol>Troubleshooting Scenario</uicontrol> that best fits the
           observed situation.</li>
         <li>A series of tests will run, with results either being captured and displayed
@@ -66,7 +67,8 @@
         <tbody>
           <row>
             <entry colname="col2">
-              <p><image href="../images/operational_icon.png" id="image_gpx_n3m_mr"/></p>
+              <p><image href="../images/operational_icon.png"
+                  id="image_gpx_n3m_mr"/></p>
             </entry>
             <entry colname="col3">
               <p>Healthy</p>

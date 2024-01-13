@@ -16,11 +16,6 @@
   <metadata>
     <keywords><indexterm>MobileView<indexterm>system performance tab</indexterm></indexterm></keywords>
   </metadata>
- 
- <metadata>
-   <data name="topicFigs"/>
- </metadata>
- 
  </prolog>
  <conbody>
   <p>The <uicontrol>System Performance Tab</uicontrol> provides a data view of your project's progress towards its targets. Using the <uicontrol>Data View</uicontrol> widget in the top right hand corner, you can manipulate the data stream:
