@@ -8,34 +8,37 @@
   <target name="dita2preprocess.jdw" 
           depends="build-init, 
           preprocess2.preprocess.jdw">
-    <makeurl property="output.dir.uri" file="${output.dir}"/>
-    <!--pipeline message="Normalize DITA files" taskname="normalize"-->
-    <xslt in="${dita.temp.dir}/.job.xml" out="${dita.temp.dir}/.job.xml.temp"
+<!--    <makeurl property="output.dir.uri" file="${output.dir}"/>-->
+
+<!--    <xslt in="${dita.temp.dir}/.job.xml" out="${dita.temp.dir}/.job.xml.temp"
       style="${dita.plugin.com.jdw.preprocess.jdw.dir}/xsl/normalize.xsl" taskname="normalize">
       <param name="output.dir.uri" expression="${output.dir.uri}"/>
       <xmlcatalog refid="dita.catalog"/>
-    </xslt>
-    <!--/pipeline-->
-    <delete file="${dita.temp.dir}/.job.xml.temp"/>
+    </xslt>-->
+
+<!--    <delete file="${dita.temp.dir}/.job.xml.temp"/>-->
   </target>
 
   <!-- jdw 09-16-2023 removed add-identifiers and numbering targets -->
-  <target name="preprocess2.preprocess.jdw" description="Preprocess" depends="preprocess2.init,
+  <target name="preprocess2.preprocess.jdw" description="Preprocess" 
+         depends="preprocess2.init,
                   ditaval-merge,
                   
                   preprocess2.maps,
-                  preprocess2.topics.preprocess.jdw,
-                  
-                  map-clean-map,
-                  clean-preprocess,
-                  copy-files2">
+                  preprocess2.topics.preprocess.jdw">
     <dirname property="_dita.map.output.dir" file="${dita.output.dir}/${user.input.file}"/>
     <dirname property="_dita.map.temp.dir" file="${dita.temp.dir}/${user.input.file}"/>
     <property name="uplevels" value=""/>
     <property name="dita.map.output.dir" location="${_dita.map.output.dir}/${uplevels}"/>
   </target>
 
-  <target name="preprocess2.topics.preprocess.jdw" depends="topic-reader,
+  <!-- Here is where the topics get numbered,       -->
+  <!-- ⇊  right after topic-chunk.            ⇊    -->
+  <!-- Add a target to count the figs in a topic    -->
+  <!-- removing number-topics from depends for test -->
+  <!-- ⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊   -->
+  <target name="preprocess2.topics.preprocess.jdw" 
+    depends="topic-reader,
     topic-branch-filter,
     topic-keyref,
     topic-copy-to,
@@ -43,7 +46,20 @@
     topic-conref,
     topic-profile,
     preprocess2.topic-fragment,
-    topic-chunk"/>
+    topic-chunk,
+    number-figures"/>
+  
+  <!-- Add a number to every fig in a topic. -->
+  <target name="number-figures">
+    <echo message="plugin: ${dita.plugin.com.jdw.preprocess.jdw.dir}"/>
+    <pipeline message="Add numbers to figures" taskname="number-figures">
+      <xslt basedir="${dita.temp.dir}"
+        style="${dita.plugin.com.jdw.preprocess.jdw.dir}/xsl/add-figure-numbers.xsl">
+        <ditaFileset format="ditamap" input="true"/>
+        <xmlcatalog refid="dita.catalog"/>
+      </xslt>
+    </pipeline>
+  </target>
 
   <!-- Add ID attribute to all block level elements -->
   <target name="add-identifiers">

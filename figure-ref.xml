@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<figure-ref>
+  <!-- these templates come from topic.xsl      -->
+  <!-- the XSL refers to topic/fig 13 times     -->
+  <!-- idk if every instance is worth including -->
+  
+  
+  <!-- set up keys based on xref's "type" attribute: %info-types;|hd|fig|table|li|fn -->
+    <xsl:key name="fig"   match="*[contains(@class, ' topic/fig ')]"   use="@id"/> <!-- uses "title" -->
+ <!-- I looked at every key in the plugins folder and did not see a key that uses fig -->
+ 
+ 
+  <!-- among things that can be numbered are figs titles -->
+  <!-- this gets used in the PDF2 PLUGIN -->
+  <xsl:key name="enumerableByClass"
+    match="*[contains(@class, ' topic/fig ')][*[contains(@class, ' topic/title ')]] |
+    *[contains(@class, ' topic/table ')][*[contains(@class, ' topic/title ')]] |
+    *[contains(@class, ' topic/simpletable ')][*[contains(@class, ' topic/title ')]] |
+    *[contains(@class,' topic/fn ') and empty(@callout)]"
+    use="tokenize(@class, '\s+')"/>
+  
+  <!-- enumerable by class gets used on fig, but not sure what it produces -->
+  <xsl:template match="*[contains(@class,' topic/fig ')]/*[contains(@class,' topic/title ')]" mode="fig.title-number">
+    <xsl:value-of select="count(key('enumerableByClass', 'topic/fig')[. &lt;&lt; current()][dita-ot:notExcludedByDraftElement(.)])"/>
+  </xsl:template>
+  <!-- figure processing begins here -->
+  
+  <!-- =========== FIGURE =========== -->
+  <xsl:template match="*[contains(@class, ' topic/fig ')]" name="topic.fig">
+    <xsl:variable name="default-fig-class">
+      <xsl:apply-templates select="." mode="dita2html:get-default-fig-class"/>
+    </xsl:variable>
+    <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-startprop ')]" mode="out-of-line"/>
+    <figure>
+      <xsl:if test="$default-fig-class != ''">
+        <xsl:attribute name="class" select="$default-fig-class"/>
+      </xsl:if>
+      <xsl:call-template name="commonattributes">
+        <xsl:with-param name="default-output-class" select="$default-fig-class"/>
+      </xsl:call-template>
+      <xsl:call-template name="setscale"/>
+      <xsl:call-template name="setidaname"/>
+      <xsl:call-template name="place-fig-lbl"/>
+      <xsl:apply-templates select="node() except *[contains(@class, ' topic/title ') or contains(@class, ' topic/desc ')]"/>
+    </figure>
+    <xsl:apply-templates select="*[contains(@class, ' ditaot-d/ditaval-endprop ')]" mode="out-of-line"/>
+  </xsl:template>
+  
+  <!-- Determine the default XHTML class attribute for a figure -->
+  <xsl:template match="*" mode="dita2html:get-default-fig-class">
+    <xsl:choose>
+      <xsl:when test="@frame = 'all'">figborder</xsl:when>
+      <xsl:when test="@frame = 'sides'">figsides</xsl:when>
+      <xsl:when test="@frame = 'top'">figtop</xsl:when>
+      <xsl:when test="@frame = 'bottom'">figbottom</xsl:when>
+      <xsl:when test="@frame = 'topbot'">figtopbot</xsl:when>
+      <xsl:otherwise>fignone</xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <!-- should not need priority, default is low enough; was set to 1 -->
+  <xsl:template match="*[contains(@class, ' topic/figgroup ')]" name="topic.figgroup">
+    <!-- Figgroup can contain blocks, maybe this should be a div?
+         Changing to <div> with DITA-OT 2.3 -->
+    <div>
+      <xsl:call-template name="commonattributes"/>
+      <xsl:call-template name="setidaname"/>
+      <!-- Allow title to fallthrough -->
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+  
+  
+  <!-- numbering gets done here, as part of the label -->
+  <!-- Figure -->
+  
+  <!-- Figure caption -->
+  <xsl:template name="place-fig-lbl">
+    <xsl:param name="stringName"/>
+    <!-- Number of fig/title's including this one -->
+    <xsl:variable name="fig-count-actual" select="count(preceding::*[contains(@class, ' topic/fig ')]/*[contains(@class, ' topic/title ')])+1"/>
+    <xsl:variable name="ancestorlang">
+      <xsl:call-template name="getLowerCaseLang"/>
+    </xsl:variable>
+    <xsl:choose>
+      <!-- title -or- title & desc -->
+      <xsl:when test="*[contains(@class, ' topic/title ')]">
+        <figcaption>
+          <span class="fig--title-label">
+            <xsl:choose>      <!-- Hungarian: "1. Figure " -->
+              <xsl:when test="$ancestorlang = ('hu', 'hu-hu')">
+                <xsl:value-of select="$fig-count-actual"/>
+                <xsl:text>. </xsl:text>
+                <xsl:call-template name="getVariable">
+                  <xsl:with-param name="id" select="'Figure'"/>
+                </xsl:call-template>
+                <xsl:text> </xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:call-template name="getVariable">
+                  <xsl:with-param name="id" select="'Figure'"/>
+                </xsl:call-template>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="$fig-count-actual"/>
+                <xsl:text>. </xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
+          </span>
+          <xsl:apply-templates select="*[contains(@class, ' topic/title ')]" mode="figtitle"/>
+          <xsl:if test="*[contains(@class, ' topic/desc ')]">
+            <xsl:text>. </xsl:text>
+          </xsl:if>
+          <xsl:for-each select="*[contains(@class, ' topic/desc ')]">
+            <span>
+              <xsl:call-template name="commonattributes">
+                <xsl:with-param name="default-output-class" select="'figdesc'"/>
+              </xsl:call-template>
+              <xsl:apply-templates select="." mode="figdesc"/>
+            </span>
+          </xsl:for-each>
+        </figcaption>
+      </xsl:when>
+      <!-- desc -->
+      <xsl:when test="*[contains(@class, ' topic/desc ')]">
+        <xsl:for-each select="*[contains(@class, ' topic/desc ')]">
+          <figcaption>
+            <xsl:call-template name="commonattributes"/>
+            <xsl:apply-templates select="." mode="figdesc"/>
+          </figcaption>
+        </xsl:for-each>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+  
+  
+</figure-ref>

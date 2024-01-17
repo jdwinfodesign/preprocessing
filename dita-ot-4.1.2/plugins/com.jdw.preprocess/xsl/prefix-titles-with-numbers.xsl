@@ -7,15 +7,6 @@
     for the numbering.
     -->
 
-<!-- jdw 04-26-2022
-       Along with adding numbers to topic titles, count your tables and figs. 
-       Continued from add-topic-numbers.xsl....
-       Count your tables and fig in this XSL.
-       Write a template rule like the ones for topic/title, that copies 
-       the fig title or table title and adds the specnum or whatever
-       you applied in add-topic-numbers; i.e., from the record captured
-       in the map in the previous step.
--->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
