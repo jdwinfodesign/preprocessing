@@ -1,0 +1,2556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="conceptId"
+    ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+    xtrc="concept:1;3:25" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+      xtrc="title:1;4:9">Thunderbird StormCluster features and benefits</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+      xtrc="shortdesc:1;7:13">StormCluster components work together to give you the advanced cluster
+      management and reporting capabilities that you need within a large computing
+      environment.</shortdesc>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+      xtrc="conbody:1;10:11">
+      <section id="section_mtx_smc_rr" class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+        xtrc="section:1;11:36">
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+          xtrc="p:1;12:7">The Thunderbird StormCluster computing management solution combines
+          powerful cluster management services with a simple-to-use, intuitive MobileView front-end
+          application. The combination places control of the full resources of your computing
+          infrastructure into the hands of your team members and it does so in a way the
+          establishes, and sustains, the highest levels of security. <fig id="fig_ihs_xmc_rr"
+            class="- topic/fig "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+            xtrc="fig:1;17:49">
+            <title class="- topic/title "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="title:2;18:13">Thunderbird StormCluster Computing Management Solution</title>
+            <image href="06b0205c25ebdaf998cfcbaf2010a8c3e4af2076.jpg" id="image_f2g_mft_qr"
+              placement="inline" class="- topic/image "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="image:1;21:81"/>
+          </fig>
+        </p>
+      </section>
+      <section id="section_p1h_jcz_qr" class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+        xtrc="section:2;24:36">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+          xtrc="title:3;25:11">Key StormCluster benefits</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+          xtrc="p:2;26:7">
+          <ul id="ul_ewm_kmj_ae" class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+            xtrc="ul:1;27:28">
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:1;28:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:3;29:10">Maximum flexibility</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:2;31:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:4;32:10">Designed for extensibility</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:3;34:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:5;35:10">Ease of management</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:4;37:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:6;38:10">Extreme scalability</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:5;40:10">Intuitive reports and data visualizations</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:6;41:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:7;42:10">Industry-leading support</p>
+            </li>
+          </ul>
+        </p>
+      </section>
+      <section id="section_tjt_jcz_qr" class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+        xtrc="section:3;47:36">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+          xtrc="title:4;48:11">Key StormCluster features</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+          xtrc="p:8;49:7">
+          <ul id="ul_qub_qmj_ae" class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+            xtrc="ul:2;50:28">
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:7;51:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:9;52:10">Easy to use and manage for onsite administrators</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:8;54:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:10;55:10">High performing, scalable architecture</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:9;57:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:11;58:10">Comprehensive, intelligent scheduling policies</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:10;60:10">Complete customization flexibility for integrators</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:11;61:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:12;62:10">Heterogeneous platform support</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:12;64:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:13;65:10">Continuous live data reporting services</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+              xtrc="li:13;67:10">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+                xtrc="p:14;68:10">Robust security services</p>
+            </li>
+          </ul>
+        </p>
+      </section>
+      <section id="section_glb_kcz_qr" class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+        xtrc="section:4;73:36">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+          xtrc="title:5;74:11">Component architecture delivers maximum scalability and
+          flexibility</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_architecture_combined.dita"
+          xtrc="p:15;75:7">StormCluster calls upon the ClusterView, ClusterAnalytics, Balance and
+          ClusterControl components become a powerful workload manager for demanding, distributed
+          high-performance computing environments. Not only is a complete set of workload management
+          capabilities available, but the reporting benefits of ClusterControl, ClusterView and
+          ClusterAnalytics work together to reduce cycle times and maximize productivity in mission
+          critical environments. Equipped with MobileView mobile interface, your system
+          administration team and designated system users can collaborate to coordinate their
+          business priorities so that the overall effect is improved even more.</p>
+      </section>
+    </conbody>
+  </concept>
+
+  <task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="t_mv_logging_on"
+    xml:lang="en-us" ditaarch:DITAArchVersion="1.3"
+    domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)"
+    class="- topic/topic task/task "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+    xtrc="task:1;2:45" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+      xtrc="title:1;3:12">Logging on to MobileView</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+      xtrc="shortdesc:1;4:16">To log on to MobileView, you must open the MobileView application and
+      connect to the ClusterControl server.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+      xtrc="prolog:1;8:13">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+        xtrc="metadata:1;9:19">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="prodinfo:1;10:23">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="prodname:1;11:27">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="vrmlist:1;12:26">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="vrm:1;13:71"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+        xtrc="metadata:2;17:19">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="keywords:1;18:23">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="indexterm:1;19:28">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="indexterm:2;19:49">logging in</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <taskbody class="- topic/body task/taskbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+      xtrc="taskbody:1;23:15">
+      <prereq class="- topic/section task/prereq "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+        xtrc="prereq:1;24:17">
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="p:1;25:16">Make sure that you have your username, password, and the name of the
+          server that you want to connect to.</p>
+      </prereq>
+      <context class="- topic/section task/context "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+        xtrc="context:1;27:18">
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="p:2;28:16">Once you are logged on, you can log off and disconnect from a particular
+          project without closing MobileView. Logging off without closing the application is helpful
+          if you plan to log on again using a different username and password.</p>
+        <note class="- topic/note "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="note:1;32:19">You might automatically be logged off after a period of
+          inactivity.</note>
+      </context>
+      <steps class="- topic/ol task/steps "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+        xtrc="steps:1;34:16">
+        <stepsection class="- topic/li task/stepsection "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="stepsection:1;35:26">To log on to MobileView:</stepsection>
+        <step class="- topic/li task/step "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="step:1;36:19">
+          <cmd class="- topic/ph task/cmd "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="cmd:1;37:22">To open MobileView, click <menucascade
+              class="+ topic/ph ui-d/menucascade "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="menucascade:1;38:40">
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+                xtrc="uicontrol:1;39:36">Start</uicontrol>
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+                xtrc="uicontrol:2;40:36">All programs</uicontrol>
+            </menucascade>Company Name MobileView.</cmd>
+          <info class="- topic/itemgroup task/info "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="info:1;43:23">You will see the End User Login Screen. <fig id="fig_jzz_ykh_mr"
+              class="- topic/fig "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="fig:1;44:65">
+              <title id="title_kn2_tkh_mr" class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+                xtrc="title:2;45:54">End User Login Screen</title>
+              <image href="f31e5ed1272a7252fce81f5c4c397d6f0c74e716.png" id="image_mfx_rbh_mr"
+                placement="inline" class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+                xtrc="image:1;47:97"/>
+            </fig>
+          </info>
+        </step>
+        <step class="- topic/li task/step "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="step:2;50:19">
+          <cmd class="- topic/ph task/cmd "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="cmd:2;51:22">In the dialog box, do one of the following:</cmd>
+          <choices class="- topic/ul task/choices "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="choices:1;53:26">
+            <choice class="- topic/li task/choice "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="choice:1;54:29">Enter your MobileView username and password.</choice>
+            <choice class="- topic/li task/choice "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="choice:2;56:29">Log on using your Windows user account by selecting the
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+                xtrc="uicontrol:3;56:96">Windows</uicontrol> selection button.</choice>
+          </choices>
+        </step>
+        <step class="- topic/li task/step "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="step:3;59:19">
+          <cmd class="- topic/ph task/cmd "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="cmd:3;60:22">In the directory field, enter the name or IP address of the main
+            Product Name Cluster Control server.</cmd>
+        </step>
+        <step class="- topic/li task/step "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="step:4;64:19">
+          <cmd class="- topic/ph task/cmd "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="cmd:4;65:22">If you are required to log on with supervision, your supervisor must
+            provide a username and password.</cmd>
+        </step>
+        <step class="- topic/li task/step "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="step:5;68:19">
+          <cmd class="- topic/ph task/cmd "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="cmd:5;69:22">Click log in button.</cmd>
+        </step>
+        <step class="- topic/li task/step "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+          xtrc="step:6;71:19">
+          <cmd class="- topic/ph task/cmd "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+            xtrc="cmd:6;72:22">To log off, click the <uicontrol class="+ topic/ph ui-d/uicontrol "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="uicontrol:4;72:55">Home</uicontrol> tab and then click <uicontrol
+              class="+ topic/ph ui-d/uicontrol "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/t_mv_logging_on.dita"
+              xtrc="uicontrol:5;73:43">Log Off</uicontrol> button.</cmd>
+        </step>
+      </steps>
+    </taskbody>
+  </task>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="c_mv_operations_tab"
+    xml:lang="en-us" ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+    xtrc="concept:1;3:52" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+      xtrc="title:1;4:9">Workspace environment</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+      xtrc="shortdesc:1;5:13">View analysis of cluster operations.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+      xtrc="prolog:1;6:10">
+      <author class="- topic/author "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+        xtrc="author:1;7:11">Technical writing</author>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+        xtrc="metadata:1;8:13">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+          xtrc="prodinfo:1;9:14">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="prodname:1;10:15">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="vrmlist:1;11:14">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="vrm:1;12:56"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+        xtrc="metadata:2;16:13">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+          xtrc="keywords:1;17:14">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="indexterm:1;17:25">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="indexterm:2;17:46">workspace tab</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+      xtrc="conbody:1;20:11">
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+        xtrc="p:1;21:6">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+          xtrc="uicontrol:1;21:21">Workspace Tab</uicontrol> includes four different data views to
+        provide a detailed overview of how your project is using cluster resources. These data views
+        display: <ul class="- topic/ul "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+          xtrc="ul:1;22:100">
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="li:1;23:9">Cluster response time.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="li:2;24:9">Cluster requests.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="li:3;25:9">Active host servers.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="li:4;26:9">Cluster workload.</li>
+        </ul>
+      </p>
+      <fig id="fig_enw_2lh_mr" class="- topic/fig "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+        xtrc="fig:1;29:28">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+          xtrc="title:2;30:11">EndUser Workspace</title>
+        <image href="42dd5d5ed46ad19c0d5d86382f8a6270ef8c58ea.png" id="image_rtw_ffh_mr"
+          placement="inline" class="- topic/image "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+          xtrc="image:1;32:80"/>
+      </fig>
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+        xtrc="p:2;37:6">Content is automatically updated in these data views when events occur
+        related to the project you are monitoring. This provides you with real-time information that
+        is crucial for monitoring your project's use of cluster resources as effectively and
+        efficiently as possible.</p>
+      <table frame="topbot" rowsep="1" class="- topic/table "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+        xtrc="table:1;40:36">
+        <tgroup cols="2" rowsep="1" class="- topic/tgroup "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+          xtrc="tgroup:1;41:32">
+          <colspec colname="col1" colnum="1" colwidth="16*" class="- topic/colspec "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="colspec:1;42:54"/>
+          <colspec colname="col2" colnum="2" colwidth="50*" class="- topic/colspec "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="colspec:2;43:54"/>
+          <tbody class="- topic/tbody "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+            xtrc="tbody:1;44:12">
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:1;45:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:1;46:14" colname="col1" dita-ot:x="1" dita-ot:y="1">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:1;46:17">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:2;46:28">Account Information</uicontrol>
+                </b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:2;47:14" colname="col2" dita-ot:x="2" dita-ot:y="1">Access and modify
+                account information.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:2;49:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:3;50:14" colname="col1" dita-ot:x="1" dita-ot:y="2">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:2;50:17">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:3;50:28">Task List</uicontrol>
+                </b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:4;51:14" colname="col2" dita-ot:x="2" dita-ot:y="2">Access assigned
+                tasks.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:3;53:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:5;54:14" colname="col1" dita-ot:x="1" dita-ot:y="3">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:3;54:17">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:4;54:28">Notifications</uicontrol>
+                </b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:6;55:14" colname="col2" dita-ot:x="2" dita-ot:y="3">View
+                notifications.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:4;57:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:7;58:14" colname="col1" dita-ot:x="1" dita-ot:y="4">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:4;58:17">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:5;58:28">Contacts</uicontrol>
+                </b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:8;59:14" colname="col2" dita-ot:x="2" dita-ot:y="4">View a list of
+                contacts and interact using messaging. </entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:5;61:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:9;62:14" colname="col1" dita-ot:x="1" dita-ot:y="5">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:5;62:17">Search</b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:10;63:14" colname="col2" dita-ot:x="2" dita-ot:y="5">Search for
+                documentation, cluster hosts, reports, and other resources.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:6;65:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:11;66:14" colname="col1" dita-ot:x="1" dita-ot:y="6">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:6;66:17">Session Details</b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:12;67:14" colname="col2" dita-ot:x="2" dita-ot:y="6">Displays current
+                session details including date, time, and location.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:7;69:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:13;70:14" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:7;70:17">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:6;70:28">Workspace Tab</uicontrol>
+                </b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:14;71:14" colname="col2" dita-ot:x="2" dita-ot:y="7">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="p:3;72:11">View reports on cluster operations. The <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:7;72:62">Workspace</uicontrol> tab includes different data views
+                  to provide a detailed overview of how your tasks are using cluster resources.</p>
+              </entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:8;77:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:15;78:14" colname="col1" dita-ot:x="1" dita-ot:y="8">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:8;78:17">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:8;78:28">Customize Views Tab</uicontrol>
+                </b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:16;79:14" colname="col2" dita-ot:x="2" dita-ot:y="8">Access the
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="uicontrol:9;79:36">Customize View</uicontrol> tab to reconfigure the: <ul
+                  id="ul_nkd_2qm_mr" class="- topic/ul "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="ul:2;80:28">
+                  <li class="- topic/li "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="li:5;81:13">reports are displayed in the <uicontrol
+                      class="+ topic/ph ui-d/uicontrol "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                      xtrc="uicontrol:10;81:53">Workspace</uicontrol> tab</li>
+                  <li class="- topic/li "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="li:6;82:13">the layout of reports within the <uicontrol
+                      class="+ topic/ph ui-d/uicontrol "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                      xtrc="uicontrol:11;82:57">Workspace</uicontrol> tab</li>
+                  <li class="- topic/li "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="li:7;83:13">the definition of individual reports</li>
+                  <li class="- topic/li "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="li:8;84:13">the design of customer reports</li>
+                </ul>
+              </entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:9;87:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:17;88:14" colname="col1" dita-ot:x="1" dita-ot:y="9">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:9;88:17">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:12;88:28">System Performance</uicontrol>
+                </b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:18;89:14" colname="col2" dita-ot:x="2" dita-ot:y="9">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="p:4;90:11">View reports on task progression and cluster activity. These
+                  reports provide in depth, real-time analytic information about current jobs and
+                  the associated cluster activity.</p>
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="p:5;92:11">View reports on job progression. The <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:13;92:59">System Performance</uicontrol> tab displays your
+                  current jobs as they progress towards their targets.You can modify the reports
+                  according to the time period and tasks displayed.</p>
+              </entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+              xtrc="row:10;97:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:19;98:14" colname="col1" dita-ot:x="1" dita-ot:y="10">
+                <b class="+ topic/ph hi-d/b "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="b:10;98:17">System Support</b>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                xtrc="entry:20;99:14" colname="col2" dita-ot:x="2" dita-ot:y="10">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="p:6;100:11">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:14;100:26">System Support</uicontrol> tab provides access to
+                  three important sub-tabs:<ul id="ul_brn_frm_mr" class="- topic/ul "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="ul:3;101:42">
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                      xtrc="li:9;102:14">
+                      <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                        xtrc="uicontrol:15;102:25">Troubleshooting</uicontrol> which provides access
+                      to structured diagnostic procedures to be used to isolate and resolve system
+                      problems.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                      xtrc="li:10;104:14">
+                      <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                        xtrc="uicontrol:16;104:25">Documentation</uicontrol> which can be searched
+                      using a combination of full-text queries and filter selections.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                      xtrc="li:11;106:14">
+                      <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                        xtrc="uicontrol:17;106:25">Discussion board</uicontrol> where past and
+                      ongoing moderated discussions can be accessed and participated in. </li>
+                  </ul>
+                </p>
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                  xtrc="p:7;109:11">
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_workspace_tab.dita"
+                    xtrc="uicontrol:18;109:22">Contact Support</uicontrol> if you have trouble using
+                  MobileView and cannot find the answers you need on the Troubleshooting or
+                  Documentation pages. </p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </conbody>
+  </concept>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="c_mv_performance_tab"
+    xml:lang="en-us" ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+    xtrc="concept:1;3:53" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+      xtrc="title:1;4:9">System performance</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+      xtrc="shortdesc:1;5:14">MobileViewMobileView reports on system performance.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+      xtrc="prolog:1;7:10">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+        xtrc="metadata:1;8:13">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="prodinfo:1;9:14">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="prodname:1;10:15">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="vrmlist:1;11:14">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+              xtrc="vrm:1;12:56"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+        xtrc="metadata:2;16:13">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="keywords:1;17:15">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="indexterm:1;17:26">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+              xtrc="indexterm:2;17:47">system performance tab</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+      xtrc="conbody:1;20:11">
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+        xtrc="p:1;21:6">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="uicontrol:1;21:21">System Performance Tab</uicontrol> provides a data view of your
+        project's progress towards its targets. Using the <uicontrol
+          class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="uicontrol:2;21:146">Data View</uicontrol> widget in the top right hand corner, you
+        can manipulate the data stream: <ul class="- topic/ul "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="ul:1;22:7">
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="li:1;23:8">Change the time period displayed using the (insert time period icon)
+            icon.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="li:2;24:8">Select different tasks to see how specific aspects of your project are
+            progressing using the (insert task icon) icon.</li>
+        </ul> You can use the real-time System Performance readings to better manage your project
+        and subordinate tasks. </p>
+      <fig id="fig_eqw_2lh_mr" class="- topic/fig "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+        xtrc="fig:1;28:29">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="title:2;29:13">MobileView Performance Monitor</title>
+        <image href="7626754cbda1b7f5db697e72a2f74fd2c7cbb986.png" id="image_az2_hfh_mr"
+          placement="inline" class="- topic/image "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="image:1;30:84"/>
+      </fig>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+        xtrc="section:1;32:12">Monitoring <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="uicontrol:3;32:34">System Performance</uicontrol>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="p:2;33:7">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="uicontrol:4;33:22">System Performance</uicontrol> tab provides the ability to
+          monitor the performance of selected cluster hosts and specific processing jobs. In order
+          to facilitate this, the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="uicontrol:5;35:20">System Performance</uicontrol> tab provides simple mechanisms
+          for selecting <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="uicontrol:6;36:17">active jobs</uicontrol> (tasks), setting the <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="uicontrol:7;36:73">time period</uicontrol> within which analysis and reporting
+          will occur, and the type of <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="uicontrol:8;37:80">graphical layout</uicontrol> and <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="uicontrol:9;38:40">event type</uicontrol> will be applied. <ul id="ul_q31_5st_mr"
+            class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="ul:2;39:25">
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+              xtrc="li:3;40:10">
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                xtrc="uicontrol:10;40:21">Active Jobs</uicontrol> Analysis<ul id="ul_d3n_xst_mr"
+                class="- topic/ul "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                xtrc="ul:3;40:76">
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:4;41:12">Based on the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                    xtrc="uicontrol:11;41:36">Active Clusters</uicontrol> selected in the <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                    xtrc="uicontrol:12;42:21">Workspace</uicontrol> view, the subordinate active
+                  jobs will be displayed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:5;43:12">The data stream in the data view will be updated to reflect the
+                  active jobs selected. </li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:6;44:12">These settings will be maintained until changed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:7;45:12">These settings can be saved for later use or shared with
+                  colleagues. </li>
+              </ul>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+              xtrc="li:8;47:10">
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                xtrc="uicontrol:13;47:21">Time Periods</uicontrol>
+              <ul id="ul_znp_wtt_mr" class="- topic/ul "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                xtrc="ul:4;48:30">
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:9;49:12">Use the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                    xtrc="uicontrol:14;49:31">Time Period</uicontrol> controls in the <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                    xtrc="uicontrol:15;49:82">System Performance</uicontrol> view to constrain the
+                  analysis being performed to a specific time period.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:10;52:12">Use the date controls to set a start and end time for the
+                  analysis window.<ul id="ul_jqz_h5t_mr" class="- topic/ul "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                    xtrc="ul:5;53:29">
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                      xtrc="li:11;54:14">When you select a date control, a <uicontrol
+                        class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                        xtrc="uicontrol:16;54:59">Calendar View</uicontrol> will open.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                      xtrc="li:12;55:14">Within the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                        xtrc="uicontrol:17;55:36">Calendar View</uicontrol>, start and end dates can
+                      be chosen.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                      xtrc="li:13;57:14">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                        xtrc="uicontrol:18;57:29">Calendar View</uicontrol> provides fields for
+                      designating specific start and end times.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                      xtrc="li:14;59:14">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                        xtrc="uicontrol:19;59:29">Calendar View</uicontrol> provides the option to
+                      define rules that will be used to automatically select date and time
+                      ranges.</li>
+                  </ul>
+                </li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:15;62:12">The data stream in the data view will be updated to reflect the
+                  time period selected.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:16;64:12">These settings will be maintained until changed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+                  xtrc="li:17;65:12">These settings can be saved for later use or shared with
+                  colleagues.</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="p:3;68:8">Here is a favorite of mine: <fig id="yeah-fig-2" class="- topic/fig "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+            xtrc="fig:2;68:57">
+            <title id="title_kn2_tkh_mr" class="- topic/title "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+              xtrc="title:3;69:36">End User Login Screen</title>
+            <image href="f31e5ed1272a7252fce81f5c4c397d6f0c74e716.png" id="image_mfx_rbh_mr"
+              placement="inline" class="- topic/image "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+              xtrc="image:2;71:79"/>
+          </fig>
+        </p>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab.dita"
+          xtrc="p:4;73:8">Here ends System performance.</p>
+      </section>
+    </conbody>
+  </concept>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="c_mv_performance_tab"
+    xml:lang="en-us" ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+    xtrc="concept:1;3:53" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+      xtrc="title:1;4:9">System performance</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+      xtrc="shortdesc:1;5:14">MobileViewMobileView reports on system performance.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+      xtrc="prolog:1;7:10">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+        xtrc="metadata:1;8:13">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="prodinfo:1;9:14">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="prodname:1;10:15">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="vrmlist:1;11:14">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+              xtrc="vrm:1;12:56"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+        xtrc="metadata:2;16:13">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="keywords:1;17:15">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="indexterm:1;17:26">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+              xtrc="indexterm:2;17:47">system performance tab</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+      xtrc="conbody:1;20:11">
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+        xtrc="p:1;21:6">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="uicontrol:1;21:21">System Performance Tab</uicontrol> provides a data view of your
+        project's progress towards its targets. Using the <uicontrol
+          class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="uicontrol:2;21:146">Data View</uicontrol> widget in the top right hand corner, you
+        can manipulate the data stream: <ul class="- topic/ul "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="ul:1;22:7">
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="li:1;23:8">Change the time period displayed using the (insert time period icon)
+            icon.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="li:2;24:8">Select different tasks to see how specific aspects of your project are
+            progressing using the (insert task icon) icon.</li>
+        </ul> You can use the real-time System Performance readings to better manage your project
+        and subordinate tasks. </p>
+      <fig id="fig_eqw_2lh_mr" class="- topic/fig "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+        xtrc="fig:1;28:29">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="title:2;29:13">MobileView Performance Monitor</title>
+        <image href="7626754cbda1b7f5db697e72a2f74fd2c7cbb986.png" id="image_az2_hfh_mr"
+          placement="inline" class="- topic/image "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="image:1;30:84"/>
+      </fig>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+        xtrc="section:1;32:12">Monitoring <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="uicontrol:3;32:34">System Performance</uicontrol>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="p:2;33:7">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="uicontrol:4;33:22">System Performance</uicontrol> tab provides the ability to
+          monitor the performance of selected cluster hosts and specific processing jobs. In order
+          to facilitate this, the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="uicontrol:5;35:20">System Performance</uicontrol> tab provides simple mechanisms
+          for selecting <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="uicontrol:6;36:17">active jobs</uicontrol> (tasks), setting the <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="uicontrol:7;36:73">time period</uicontrol> within which analysis and reporting
+          will occur, and the type of <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="uicontrol:8;37:80">graphical layout</uicontrol> and <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="uicontrol:9;38:40">event type</uicontrol> will be applied. <ul id="ul_q31_5st_mr"
+            class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="ul:2;39:25">
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+              xtrc="li:3;40:10">
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                xtrc="uicontrol:10;40:21">Active Jobs</uicontrol> Analysis<ul id="ul_d3n_xst_mr"
+                class="- topic/ul "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                xtrc="ul:3;40:76">
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:4;41:12">Based on the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                    xtrc="uicontrol:11;41:36">Active Clusters</uicontrol> selected in the <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                    xtrc="uicontrol:12;42:21">Workspace</uicontrol> view, the subordinate active
+                  jobs will be displayed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:5;43:12">The data stream in the data view will be updated to reflect the
+                  active jobs selected. </li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:6;44:12">These settings will be maintained until changed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:7;45:12">These settings can be saved for later use or shared with
+                  colleagues. </li>
+              </ul>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+              xtrc="li:8;47:10">
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                xtrc="uicontrol:13;47:21">Time Periods</uicontrol>
+              <ul id="ul_znp_wtt_mr" class="- topic/ul "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                xtrc="ul:4;48:30">
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:9;49:12">Use the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                    xtrc="uicontrol:14;49:31">Time Period</uicontrol> controls in the <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                    xtrc="uicontrol:15;49:82">System Performance</uicontrol> view to constrain the
+                  analysis being performed to a specific time period.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:10;52:12">Use the date controls to set a start and end time for the
+                  analysis window.<ul id="ul_jqz_h5t_mr" class="- topic/ul "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                    xtrc="ul:5;53:29">
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                      xtrc="li:11;54:14">When you select a date control, a <uicontrol
+                        class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                        xtrc="uicontrol:16;54:59">Calendar View</uicontrol> will open.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                      xtrc="li:12;55:14">Within the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                        xtrc="uicontrol:17;55:36">Calendar View</uicontrol>, start and end dates can
+                      be chosen.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                      xtrc="li:13;57:14">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                        xtrc="uicontrol:18;57:29">Calendar View</uicontrol> provides fields for
+                      designating specific start and end times.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                      xtrc="li:14;59:14">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                        xtrc="uicontrol:19;59:29">Calendar View</uicontrol> provides the option to
+                      define rules that will be used to automatically select date and time
+                      ranges.</li>
+                  </ul>
+                </li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:15;62:12">The data stream in the data view will be updated to reflect the
+                  time period selected.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:16;64:12">These settings will be maintained until changed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                  xtrc="li:17;65:12">These settings can be saved for later use or shared with
+                  colleagues.</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+          xtrc="p:3;68:8">There is a Navy Yard in Philadelphia. <fig id="navy-yard-01"
+            class="- topic/fig "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+            xtrc="fig:2;69:28">
+            <title id="title_navy-01" class="- topic/title "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+              xtrc="title:3;70:33">The Navy Yard</title>
+            <image href="2b43903f4a202cfbdc945453cbec08f011716d09.jpg" placement="inline"
+              class="- topic/image "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+              xtrc="image:2;71:51">
+              <alt class="- topic/alt "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_01.dita"
+                xtrc="alt:1;72:14">The Navy Yard</alt>
+            </image>
+          </fig>
+        </p>
+      </section>
+    </conbody>
+  </concept>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="c_mv_performance_tab"
+    xml:lang="en-us" ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+    xtrc="concept:1;3:53" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+      xtrc="title:1;4:9">System performance</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+      xtrc="shortdesc:1;5:14">MobileViewMobileView reports on system performance.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+      xtrc="prolog:1;7:10">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+        xtrc="metadata:1;8:13">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="prodinfo:1;9:14">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="prodname:1;10:15">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="vrmlist:1;11:14">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+              xtrc="vrm:1;12:56"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+        xtrc="metadata:2;16:13">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="keywords:1;17:15">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="indexterm:1;17:26">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+              xtrc="indexterm:2;17:47">system performance tab</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+      xtrc="conbody:1;20:11">
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+        xtrc="p:1;21:6">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="uicontrol:1;21:21">System Performance Tab</uicontrol> provides a data view of your
+        project's progress towards its targets. Using the <uicontrol
+          class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="uicontrol:2;21:146">Data View</uicontrol> widget in the top right hand corner, you
+        can manipulate the data stream: <ul class="- topic/ul "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="ul:1;22:7">
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="li:1;23:8">Change the time period displayed using the (insert time period icon)
+            icon.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="li:2;24:8">Select different tasks to see how specific aspects of your project are
+            progressing using the (insert task icon) icon.</li>
+        </ul> You can use the real-time System Performance readings to better manage your project
+        and subordinate tasks. </p>
+      <fig id="fig_eqw_2lh_mr" class="- topic/fig "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+        xtrc="fig:1;28:29">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="title:2;29:13">MobileView Performance Monitor</title>
+        <image href="7626754cbda1b7f5db697e72a2f74fd2c7cbb986.png" id="image_az2_hfh_mr"
+          placement="inline" class="- topic/image "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="image:1;30:84"/>
+      </fig>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+        xtrc="section:1;32:12">Monitoring <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="uicontrol:3;32:34">System Performance</uicontrol>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="p:2;33:7">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="uicontrol:4;33:22">System Performance</uicontrol> tab provides the ability to
+          monitor the performance of selected cluster hosts and specific processing jobs. In order
+          to facilitate this, the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="uicontrol:5;35:20">System Performance</uicontrol> tab provides simple mechanisms
+          for selecting <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="uicontrol:6;36:17">active jobs</uicontrol> (tasks), setting the <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="uicontrol:7;36:73">time period</uicontrol> within which analysis and reporting
+          will occur, and the type of <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="uicontrol:8;37:80">graphical layout</uicontrol> and <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="uicontrol:9;38:40">event type</uicontrol> will be applied. <ul id="ul_q31_5st_mr"
+            class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="ul:2;39:25">
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+              xtrc="li:3;40:10">
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                xtrc="uicontrol:10;40:21">Active Jobs</uicontrol> Analysis<ul id="ul_d3n_xst_mr"
+                class="- topic/ul "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                xtrc="ul:3;40:76">
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:4;41:12">Based on the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                    xtrc="uicontrol:11;41:36">Active Clusters</uicontrol> selected in the <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                    xtrc="uicontrol:12;42:21">Workspace</uicontrol> view, the subordinate active
+                  jobs will be displayed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:5;43:12">The data stream in the data view will be updated to reflect the
+                  active jobs selected. </li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:6;44:12">These settings will be maintained until changed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:7;45:12">These settings can be saved for later use or shared with
+                  colleagues. </li>
+              </ul>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+              xtrc="li:8;47:10">
+              <uicontrol class="+ topic/ph ui-d/uicontrol "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                xtrc="uicontrol:13;47:21">Time Periods</uicontrol>
+              <ul id="ul_znp_wtt_mr" class="- topic/ul "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                xtrc="ul:4;48:30">
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:9;49:12">Use the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                    xtrc="uicontrol:14;49:31">Time Period</uicontrol> controls in the <uicontrol
+                    class="+ topic/ph ui-d/uicontrol "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                    xtrc="uicontrol:15;49:82">System Performance</uicontrol> view to constrain the
+                  analysis being performed to a specific time period.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:10;52:12">Use the date controls to set a start and end time for the
+                  analysis window.<ul id="ul_jqz_h5t_mr" class="- topic/ul "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                    xtrc="ul:5;53:29">
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                      xtrc="li:11;54:14">When you select a date control, a <uicontrol
+                        class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                        xtrc="uicontrol:16;54:59">Calendar View</uicontrol> will open.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                      xtrc="li:12;55:14">Within the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                        xtrc="uicontrol:17;55:36">Calendar View</uicontrol>, start and end dates can
+                      be chosen.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                      xtrc="li:13;57:14">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                        xtrc="uicontrol:18;57:29">Calendar View</uicontrol> provides fields for
+                      designating specific start and end times.</li>
+                    <li class="- topic/li "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                      xtrc="li:14;59:14">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+                        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                        xtrc="uicontrol:19;59:29">Calendar View</uicontrol> provides the option to
+                      define rules that will be used to automatically select date and time
+                      ranges.</li>
+                  </ul>
+                </li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:15;62:12">The data stream in the data view will be updated to reflect the
+                  time period selected.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:16;64:12">These settings will be maintained until changed.</li>
+                <li class="- topic/li "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                  xtrc="li:17;65:12">These settings can be saved for later use or shared with
+                  colleagues.</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+          xtrc="p:3;68:8">Another view of the Navy Yard: <fig id="navy-yard-02" class="- topic/fig "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+            xtrc="fig:2;69:30">
+            <title id="title_navy-02" class="- topic/title "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+              xtrc="title:3;70:35">Another photo of the Navy Yard in Philadelphia</title>
+            <image href="ac6b1c5c588911b6f6fdcfb9a5c78f09cef2f7a2.jpg" placement="inline"
+              class="- topic/image "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+              xtrc="image:2;71:53">
+              <alt class="- topic/alt "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_performance_tab_001.dita"
+                xtrc="alt:1;72:16">The Navy Yard</alt>
+            </image>
+          </fig>
+        </p>
+      </section>
+    </conbody>
+  </concept>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="c_mv_performance_tab"
+    xml:lang="en-us" ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+    xtrc="concept:1;3:53" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+      xtrc="title:1;4:10">System diagnostics</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+      xtrc="shortdesc:1;5:14">View analysis of cluster status and performance. The data views will
+      indicate whether active clusters are performing as expected or not.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+      xtrc="prolog:1;7:11">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="metadata:1;8:15">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="prodinfo:1;9:17">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="prodname:1;10:19">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="vrmlist:1;11:18">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+              xtrc="vrm:1;12:61"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="metadata:2;16:15">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="keywords:1;17:17">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="indexterm:1;18:20">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+              xtrc="indexterm:2;18:41">system diagnostics tab</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+      xtrc="conbody:1;23:12">
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="p:1;24:8">The <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="uicontrol:1;24:23">Troubleshooting</uicontrol> sub-tab provides a data view for
+        cluster modules actively engaged with your project's tasks. The data views provide details
+        regarding the current status and projected performance of the cluster modules.</p>
+      <fig id="fig_ovw_2lh_mr" class="- topic/fig "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="fig:1;27:30">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="title:2;28:14">MobileView System Support Tab: Troubleshooting</title>
+        <image href="f7e98d778cbd81a0cd5b9c951442bb4c115edceb.png" id="image_vlb_mch_mr"
+          placement="inline" class="- topic/image "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="image:1;30:89"/>
+      </fig>
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="p:2;32:8">The System Diagnostic troubleshooting agent will run a series of interactive
+        tests to identify and isolate problems within the ClusterView grid. A typical interaction
+        would proceed as follows:<ul id="ul_ht4_jns_mr" class="- topic/ul "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="ul:1;33:136">
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="li:1;34:13">User selects the <uicontrol class="+ topic/ph ui-d/uicontrol "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+              xtrc="uicontrol:2;34:41">Troubleshooting Scenario</uicontrol> that best fits the
+            observed situation.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="li:2;36:13">A series of tests will run, with results either being captured and
+            displayed automatically or being observed and entered by the user.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="li:3;38:13">The result from one test may lead to one or more additional tests
+            being run.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="li:4;39:13">One or more problems will be identified, isolated, and confirmed by
+            the tests.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="li:5;40:13">One or more resolution measures will be identified.</li>
+          <li class="- topic/li "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="li:6;41:13">Resolution measures will include references to the applicable task
+            documentation. </li>
+        </ul>
+      </p>
+      <p id="p_pl5_x5m_mr" class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="p:3;45:26">For each cluster module, a data view presents a graph depicting the
+        clusters progress. Three different health indicators signal the current or future processing
+        status: </p>
+      <table id="table_uw5_y24_mr" class="- topic/table "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="table:1;48:34">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="title:3;49:14">System health indicators</title>
+        <tgroup cols="3" class="- topic/tgroup "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="tgroup:1;50:24">
+          <colspec colnum="1" colname="col1" colwidth="1.06*" class="- topic/colspec "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="colspec:1;51:62"/>
+          <colspec colnum="2" colname="col2" colwidth="1.0*" class="- topic/colspec "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="colspec:2;52:61"/>
+          <colspec colnum="3" colname="col3" colwidth="1.0*" class="- topic/colspec "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="colspec:3;53:61"/>
+          <thead class="- topic/thead "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="thead:1;54:16">
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+              xtrc="row:1;55:16">
+              <entry colname="col1" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:1;56:35" dita-ot:x="1" dita-ot:y="1">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:4;57:18">Indicator</p>
+              </entry>
+              <entry colname="col2" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:2;59:35" dita-ot:x="2" dita-ot:y="1">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:5;60:18">Status</p>
+              </entry>
+              <entry colname="col3" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:3;62:35" dita-ot:x="3" dita-ot:y="1">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:6;63:18">Description</p>
+              </entry>
+            </row>
+          </thead>
+          <tbody class="- topic/tbody "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+            xtrc="tbody:1;67:16">
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+              xtrc="row:2;68:16">
+              <entry colname="col1" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:4;69:35" dita-ot:x="1" dita-ot:y="2">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:7;70:18">
+                  <image href="df31d6de7a5d5dd7b78aee74c31758c24d0db7bb.png" id="image_gpx_n3m_mr"
+                    placement="inline" class="- topic/image "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                    xtrc="image:2;71:42"/>
+                </p>
+              </entry>
+              <entry colname="col2" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:5;73:35" dita-ot:x="2" dita-ot:y="2">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:8;74:18">Healthy</p>
+              </entry>
+              <entry colname="col3" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:6;76:35" dita-ot:x="3" dita-ot:y="2">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:9;77:18">Indicates regular and sustained cluster performance.</p>
+              </entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+              xtrc="row:3;80:16">
+              <entry colname="col1" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:7;81:35" dita-ot:x="1" dita-ot:y="3">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:10;82:18">
+                  <image href="df31d6de7a5d5dd7b78aee74c31758c24d0db7bb.png" placement="inline"
+                    class="- topic/image "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                    xtrc="image:3;82:64"/>
+                </p>
+              </entry>
+              <entry colname="col2" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:8;84:35" dita-ot:x="2" dita-ot:y="3">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:11;85:18">Warning</p>
+              </entry>
+              <entry colname="col3" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:9;87:35" dita-ot:x="3" dita-ot:y="3">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:12;88:18">Indicates that the cluster is not performing optimally or cannot
+                  address projected workloads.</p>
+              </entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+              xtrc="row:4;92:16">
+              <entry colname="col1" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:10;93:35" dita-ot:x="1" dita-ot:y="4">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:13;94:18">
+                  <image href="b7d0fea67acd24ec6ff08a755c5c008cd1aae49f.png" id="image_dx2_m3m_mr"
+                    placement="inline" class="- topic/image "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                    xtrc="image:4;94:80"/>
+                </p>
+              </entry>
+              <entry colname="col2" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:11;96:35" dita-ot:x="2" dita-ot:y="4">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:14;97:18">Error</p>
+              </entry>
+              <entry colname="col3" class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                xtrc="entry:12;99:35" dita-ot:x="3" dita-ot:y="4">
+                <p class="- topic/p "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+                  xtrc="p:15;100:18">Indicates that the cluster has stopped processing a task.</p>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+        xtrc="p:16;107:8">If the cluster has stopped processing a task, it is not performing
+        optimally, or it cannot address projected workloads, you will also receive a notification
+        message alerting you to the problem. Visit the <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_diagnostics_tab.dita"
+          xtrc="uicontrol:3;109:37">Diagnostics Tab</uicontrol> to see additional information on the
+        issue, select actions to amend the situation, and monitor the impact of your
+        intervention.</p>
+    </conbody>
+  </concept>
+
+  <topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="mobileview_FAQ"
+    ditaarch:DITAArchVersion="1.3"
+    domains="(topic task) (topic concept) (topic concept glossentry) (topic concept glossgroup) (topic reference) (topic troubleshooting++task) (topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)"
+    class="- topic/topic " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+    xtrc="topic:1;4:30" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="title:1;5:10"
+      >Frequently Asked Questions</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="shortdesc:1;6:15"
+      >Answers to your frequently asked questions about MobileView. </shortdesc>
+    <body class="- topic/body " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+      xtrc="body:1;8:9">
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="section:1;9:13">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="title:2;10:12"
+          >How do I change my password?</title>
+        <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+          xtrc="p:1;11:8">You can change your password after you log on to MobileView.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+          xtrc="p:2;12:8">Select the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:1;12:30">Account</uicontrol> button in the top right hand corner, then
+          select the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:2;12:114">Settings</uicontrol> option. In the Settings tab, click the
+            <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:3;13:17">Change Password</uicontrol> button. In the
+          Are-you-sure-you-want-to-change-your-password? dialog box, enter your old password, enter
+          your new password twice, and click <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:4;14:88">OK</uicontrol>.</p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="section:2;17:13">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="title:3;18:12"
+          >Can I create a custom data view?</title>
+        <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+          xtrc="p:3;19:8">Yes. You can create custom data views that provide analytics specific to
+          the needs of your project in the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:5;20:91">Customize Views</uicontrol> page. You can analyze the tasks,
+          targets, and clusters associated with your project.</p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="section:3;24:13">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="title:4;25:12"
+          >How do I generate a custom query?</title>
+        <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+          xtrc="p:4;26:8">You can generate customized queries on the tasks, clusters, and targets in
+          your MobileView system for investigation or maintenance purposes.</p>
+        <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+          xtrc="p:5;29:8">Within the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:6;29:30">Customize Views</uicontrol> tab, use the filters in the
+            <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:7;30:17">Query Pane</uicontrol> to set up your query. Click on a filter
+          heading to turn it on or off and click the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:8;31:59">Generate</uicontrol> button to run your data analysis.</p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="section:4;36:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="title:5;37:11"
+          >How do I diagnose an issue with cluster activity?</title>
+        <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+          xtrc="p:6;38:7">If the data views in the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:9;38:43">Troubleshooting</uicontrol> sub-tab have either the error icon
+          or the warning icon, you will want to get more details regarding the issue. Initiate the
+          applicable diagnostics sequence of tests.</p>
+        <table id="table_uw5_y24_mr" class="- topic/table "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="table:1;41:33">
+          <title class="- topic/title "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita" xtrc="title:6;42:12"
+            >System health indicators</title>
+          <tgroup cols="3" class="- topic/tgroup "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="tgroup:1;43:22">
+            <colspec colnum="1" colname="col1" colwidth="1.06*" class="- topic/colspec "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+              xtrc="colspec:1;44:59"/>
+            <colspec colnum="2" colname="col2" colwidth="1.0*" class="- topic/colspec "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+              xtrc="colspec:2;45:58"/>
+            <colspec colnum="3" colname="col3" colwidth="1.0*" class="- topic/colspec "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+              xtrc="colspec:3;46:58"/>
+            <thead class="- topic/thead "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+              xtrc="thead:1;47:13">
+              <row class="- topic/row "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                xtrc="row:1;48:12">
+                <entry colname="col1" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:1;49:30" dita-ot:x="1" dita-ot:y="1">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:7;50:12">Indicator</p>
+                </entry>
+                <entry colname="col2" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:2;52:30" dita-ot:x="2" dita-ot:y="1">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:8;53:12">Status</p>
+                </entry>
+                <entry colname="col3" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:3;55:30" dita-ot:x="3" dita-ot:y="1">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:9;56:12">Description</p>
+                </entry>
+              </row>
+            </thead>
+            <tbody class="- topic/tbody "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+              xtrc="tbody:1;60:13">
+              <row class="- topic/row "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                xtrc="row:2;61:12">
+                <entry colname="col1" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:4;62:30" dita-ot:x="1" dita-ot:y="2">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:10;63:12">
+                    <image href="df31d6de7a5d5dd7b78aee74c31758c24d0db7bb.png" id="image_gpx_n3m_mr"
+                      placement="inline" class="- topic/image "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                      xtrc="image:1;63:80"/>
+                  </p>
+                </entry>
+                <entry colname="col2" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:5;65:30" dita-ot:x="2" dita-ot:y="2">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:11;66:12">Healthy</p>
+                </entry>
+                <entry colname="col3" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:6;68:30" dita-ot:x="3" dita-ot:y="2">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:12;69:12">Indicates regular and sustained cluster performance.</p>
+                </entry>
+              </row>
+              <row class="- topic/row "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                xtrc="row:3;72:12">
+                <entry colname="col1" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:7;73:30" dita-ot:x="1" dita-ot:y="3">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:13;74:12">
+                    <image href="f29586950e7bc1d9986594ef57952cc34aba0fb4.png" id="image_yxw_m3m_mr"
+                      placement="inline" class="- topic/image "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                      xtrc="image:2;74:76"/>
+                  </p>
+                </entry>
+                <entry colname="col2" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:8;76:30" dita-ot:x="2" dita-ot:y="3">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:14;77:12">Warning</p>
+                </entry>
+                <entry colname="col3" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:9;79:30" dita-ot:x="3" dita-ot:y="3">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:15;80:12">Indicates that the cluster is not performing optimally or
+                    cannot address projected workloads.</p>
+                </entry>
+              </row>
+              <row class="- topic/row "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                xtrc="row:4;84:12">
+                <entry colname="col1" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:10;85:30" dita-ot:x="1" dita-ot:y="4">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:16;86:12">
+                    <image href="b7d0fea67acd24ec6ff08a755c5c008cd1aae49f.png" id="image_dx2_m3m_mr"
+                      placement="inline" class="- topic/image "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                      xtrc="image:3;86:74"/>
+                  </p>
+                </entry>
+                <entry colname="col2" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:11;88:30" dita-ot:x="2" dita-ot:y="4">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:17;89:12">Error</p>
+                </entry>
+                <entry colname="col3" class="- topic/entry "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                  xtrc="entry:12;91:30" dita-ot:x="3" dita-ot:y="4">
+                  <p class="- topic/p "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+                    xtrc="p:18;92:12">Indicates that the cluster has stopped processing a task.</p>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+          xtrc="p:19;99:7">Click on the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:10;99:31">Data View</uicontrol> widget, and then select the <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/FAQ.dita"
+            xtrc="uicontrol:11;99:92">Diagnose</uicontrol> option. The system will return a detailed
+          account of the issue and recommended action for amending the problem.</p>
+      </section>
+    </body>
+  </topic>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="c_mv_managing_messages"
+    ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+    xtrc="concept:1;3:38" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+      xtrc="title:1;4:10">Messaging Overview</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+      xtrc="shortdesc:1;5:14">Receiving and sending messages and notifications. </shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+      xtrc="prolog:1;7:10">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="metadata:1;8:13">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="prodinfo:1;9:14">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="prodname:1;10:15">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="vrmlist:1;11:14">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="vrm:1;12:56"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="metadata:2;16:13">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="keywords:1;17:14">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="indexterm:1;17:25">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="indexterm:2;17:46">messaging overview</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+      xtrc="conbody:1;20:11">
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:1;21:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:2;22:10">Introduction</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:1;24:7">The message manager in MobileView allows you to do the following: <ul
+            class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="ul:1;25:41">
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="li:1;26:10">Send messages.</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="li:2;27:10">Receive messages and notifications.</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="li:3;28:10">Reply to messages.</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="li:4;29:10">Forward messages to others.</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="li:5;30:10">Save messages for later reference.</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="li:6;31:10">Delete unwanted messages.</li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+              xtrc="li:7;32:10">Acknowledge notifications.</li>
+          </ul>
+        </p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:2;35:11">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:3;35:18">Sending Messages</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:2;36:6">You can send a message to an individual contact or to a group of contacts
+          in MobileView. You can compose a message and then add one or more recipients or you can
+          select one or more recipients and then compose your message. All messages are retained
+          within Persistence.</p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:3;40:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:4;41:10">Receiving Messages and Notifications</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:3;42:7">You can receive messages from other MobileView users. You can also receive
+          automated notifications regarding alerts or alarms associated with your project.</p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:4;44:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:5;45:10">Replying to Messages</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:4;46:6">You can reply to messages you have received using the <uicontrol
+            class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="uicontrol:1;46:71">Reply</uicontrol> option. You cannot reply to notifications.
+          See the section, "Acknowledging Notifications", below.</p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:5;48:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:6;49:10">Forwarding Messages</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:5;50:6">Providing it is not marked as Private, you can forward a message to an
+          individual or group of people using the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="uicontrol:2;51:70">Forward</uicontrol> option. When forwarding, you can include
+          your own message.</p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:6;53:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:7;54:10">Saving Messages</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:6;55:6">Saving messages allows you to store messages for reading at a later time.
+          Once you save a message, you can still reply to the sender or, unless the message is
+          marked as Private, send it to other people or groups of people. </p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:7;60:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:8;61:10">Deleting Messages</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:7;62:7">You can delete messages by selecting one or more messages and using the
+            <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="uicontrol:3;63:17">Delete</uicontrol> option. Deleted messages are not removed
+          from the message archive within Persistence. These archived messages can be retrieved by a
+          system administrator. </p>
+      </section>
+      <section class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+        xtrc="section:8;67:12">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="title:9;68:10">Acknowledging Notifications</title>
+        <p class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+          xtrc="p:8;69:6">Each notification you receive will include some text describing the issue,
+          as well as direction towards further information and recommended action. Once the
+          appropriate action has been taken, click the <uicontrol class="+ topic/ph ui-d/uicontrol "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_managing_messages.dita"
+            xtrc="uicontrol:4;69:219">Acknowledge</uicontrol> button at the bottom of the
+          notification message. </p>
+      </section>
+    </conbody>
+  </concept>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="c_mv_customize_views"
+    xml:lang="en-us" ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+    xtrc="concept:1;3:53" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+      xtrc="title:1;4:9">Customize Views</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+      xtrc="shortdesc:1;5:13">Create custom data views that provide analytics specific to the needs
+      of your project.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+      xtrc="prolog:1;7:10">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+        xtrc="metadata:1;8:13">
+        <prodinfo class="- topic/prodinfo "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+          xtrc="prodinfo:1;9:14">
+          <prodname class="- topic/prodname "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+            xtrc="prodname:1;10:15">MobileView</prodname>
+          <vrmlist class="- topic/vrmlist "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+            xtrc="vrmlist:1;11:14">
+            <vrm version="1.1" release="GA" modification="b" class="- topic/vrm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="vrm:1;12:56"/>
+          </vrmlist>
+        </prodinfo>
+      </metadata>
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+        xtrc="metadata:2;16:13">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+          xtrc="keywords:1;17:14">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+            xtrc="indexterm:1;18:16">MobileView<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="indexterm:2;18:37">customize views tab</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+      xtrc="conbody:1;22:11">
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+        xtrc="p:1;23:6">In the <uicontrol class="+ topic/ph ui-d/uicontrol "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+          xtrc="uicontrol:1;23:24">Customize Views</uicontrol> page, you can query a range of
+        different entities in order to analyze different aspects of your project and associated
+        cluster activity. You can analyze the tasks, targets, and clusters associated with your
+        project. This allows you to gain more powerful insights into the status and progress of your
+        project. </p>
+      <fig id="fig_zxw_2lh_mr" class="- topic/fig "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+        xtrc="fig:1;27:28">
+        <title class="- topic/title "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+          xtrc="title:2;28:11">MobileView Customization Tab</title>
+        <image href="e8457105b54e78658f00398bd5b214ddad194fb6.png" id="image_xxv_mch_mr"
+          placement="inline" class="- topic/image "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+          xtrc="image:1;30:80"/>
+      </fig>
+      <p class="- topic/p "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+        xtrc="p:2;33:6">There are a variety of existing data analysis tasks available for
+        constructing your queries or you can develop your own. Once you have developed your custom
+        data view, you can save, print, or export the results.</p>
+      <table frame="topbot" class="- topic/table "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+        xtrc="table:1;37:25">
+        <tgroup cols="2" class="- topic/tgroup "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+          xtrc="tgroup:1;38:21">
+          <colspec colname="col1" colnum="1" colwidth="1.77*" class="- topic/colspec "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+            xtrc="colspec:1;39:56"/>
+          <colspec colname="col2" colnum="2" colwidth="7*" class="- topic/colspec "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+            xtrc="colspec:2;40:53"/>
+          <tbody class="- topic/tbody "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+            xtrc="tbody:1;41:12">
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:1;42:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:1;43:14" colname="col1" dita-ot:x="1" dita-ot:y="1">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:2;43:25">Analysis Pane</uicontrol>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:2;44:14" colname="col2" dita-ot:x="2" dita-ot:y="1">Displays the
+                returned results. The data will be displayed differently and different commands will
+                be available, depending on the type of data analyzed and the types of queries
+                enacted.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:2;48:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:3;49:14" colname="col1" dita-ot:x="1" dita-ot:y="2">Number of
+                Results</entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:4;50:14" colname="col2" dita-ot:x="2" dita-ot:y="2">Displays the number
+                of returned results. A warning is issued when your query returns too many rows. If
+                this happens, adjust your query filters to reduce the number of results.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:3;54:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:5;55:14" colname="col1" dita-ot:x="1" dita-ot:y="3">Data columns</entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:6;56:14" colname="col2" dita-ot:x="2" dita-ot:y="3">Right-click a column
+                heading to determine whether a column is displayed in the report pane.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:4;59:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:7;60:14" colname="col1" dita-ot:x="1" dita-ot:y="4">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:3;60:25">Entity Pane</uicontrol>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:8;61:14" colname="col2" dita-ot:x="2" dita-ot:y="4">Lists the data
+                analysis tasks and other parameters - including tasks, clusters, users, and hosts -
+                that are available for analysis.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:5;64:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:9;65:14" colname="col1" dita-ot:x="1" dita-ot:y="5">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:4;65:25">Query Pane</uicontrol>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:10;66:14" colname="col2" dita-ot:x="2" dita-ot:y="5">Use the <uicontrol
+                  class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:5;66:33">Query Pane</uicontrol> to set up the queries from your
+                analysis.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:6;69:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:11;70:14" colname="col1" dita-ot:x="1" dita-ot:y="6">Query
+                filters</entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:12;71:14" colname="col2" dita-ot:x="2" dita-ot:y="6">Use the filters in
+                the <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:6;71:48">Query Pane</uicontrol> tab to set up your query. Click on
+                a filter heading to turn it on or off. Invalid filters display as <i
+                  class="+ topic/ph hi-d/i "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="i:1;72:86">Warning</i> or <i class="+ topic/ph hi-d/i "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="i:2;73:12">Error</i>. Hover your mouse over the filter to view the reason it
+                is invalid.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:7;75:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:13;76:14" colname="col1" dita-ot:x="1" dita-ot:y="7">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:7;76:25">Generate</uicontrol>
+              </entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:14;77:14" colname="col2" dita-ot:x="2" dita-ot:y="7">Click the
+                  <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:8;77:35">Generate</uicontrol> to run your data analysis.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:8;79:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:15;80:14" colname="col1" dita-ot:x="1" dita-ot:y="8">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:9;80:25">Export</uicontrol> button</entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:16;81:14" colname="col2" dita-ot:x="2" dita-ot:y="8">Click to export
+                your data analysis once it is generated.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:9;83:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:17;84:14" colname="col1" dita-ot:x="1" dita-ot:y="9">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:10;84:25">Print</uicontrol> button</entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:18;85:14" colname="col2" dita-ot:x="2" dita-ot:y="9">Click to print your
+                data analysis once it is generated.</entry>
+            </row>
+            <row class="- topic/row "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+              xtrc="row:10;87:11">
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:19;88:14" colname="col1" dita-ot:x="1" dita-ot:y="10">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                  xtrc="uicontrol:11;88:25">Save</uicontrol> button</entry>
+              <entry class="- topic/entry "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_mv_customize_views.dita"
+                xtrc="entry:20;89:14" colname="col2" dita-ot:x="2" dita-ot:y="10">Click to save your
+                data analysis as a data view.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </conbody>
+  </concept>
+
+  <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="v3453543"
+    ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    class="- topic/topic concept/concept "
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+    xtrc="concept:1;3:24" specializations="@props/deliveryTarget">
+    <title class="- topic/title "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+      xtrc="title:1;4:9">Cluster capacity reports</title>
+    <shortdesc class="- topic/shortdesc "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+      xtrc="shortdesc:1;5:13">Reports the usage of all slots in the cluster.</shortdesc>
+    <prolog class="- topic/prolog "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+      xtrc="prolog:1;6:13">
+      <metadata class="- topic/metadata "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+        xtrc="metadata:1;7:19">
+        <keywords class="- topic/keywords "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+          xtrc="keywords:1;8:23">
+          <indexterm class="- topic/indexterm "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+            xtrc="indexterm:1;9:28">cluster<indexterm class="- topic/indexterm "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="indexterm:2;9:46">capacity</indexterm>
+          </indexterm>
+        </keywords>
+      </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+      xtrc="conbody:1;13:11">
+      <section id="v5815406" class="- topic/section "
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+        xtrc="section:1;14:32">
+        <p id="v5827470" class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+          xtrc="p:1;15:30">With the <term class="- topic/term "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+            xtrc="term:1;15:45">cluster capacity</term> capability provided by ClusterView and
+          Analytics, implementation teams can:</p>
+        <p id="v5815408" class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+          xtrc="p:2;17:30">
+          <ul id="v5815409" class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+            xtrc="ul:1;18:35">
+            <li id="v5815410" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:1;19:39">
+              <p id="v5815411" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:3;20:42">Analyze activity by project and user</p>
+            </li>
+            <li id="v5815412" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:2;22:39">
+              <p id="v5815413" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:4;23:42">Understand and improve service levels</p>
+            </li>
+            <li id="v5815414" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:3;25:39">
+              <p id="v5815415" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:5;26:42">Monitor and improve scheduling policies</p>
+            </li>
+            <li id="v5815416" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:4;28:39">
+              <p id="v5815417" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:6;29:42">Alleviate bottlenecks and boost productivity</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:5;31:25">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:7;32:28">Manage the performance of the MobileView environment</p>
+            </li>
+            <li class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:6;35:25">
+              <p class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:8;35:28">Analyze capability in order to: <ul class="- topic/ul "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                  xtrc="ul:2;36:29">
+                  <li class="- topic/li "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                    xtrc="li:7;37:33">
+                    <p class="- topic/p "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                      xtrc="p:9;37:36">Analyze capacity</p>
+                  </li>
+                  <li class="- topic/li "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                    xtrc="li:8;38:33">
+                    <p class="- topic/p "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                      xtrc="p:10;38:36">Tune cluster service level definitions</p>
+                  </li>
+                  <li class="- topic/li "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                    xtrc="li:9;39:33">
+                    <p class="- topic/p "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                      xtrc="p:11;39:36">Refine job scheduling rules</p>
+                  </li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p id="v5815418" class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+          xtrc="p:12;42:30">Worksheets in the Analytics <term class="- topic/term "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+            xtrc="term:2;43:23">Dashboard</term>:</p>
+        <p id="v5815419" class="- topic/p "
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+          xtrc="p:13;44:30">
+          <ul id="v5815420" class="- topic/ul "
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+            xtrc="ul:3;45:35">
+            <li id="v5815421" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:10;46:39">
+              <p id="v5815422" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:14;47:42">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                  xtrc="uicontrol:1;47:53">Capacity Summary</uicontrol>: Shows a map of the
+                clusters, which you can customize to show locations within a data center. You can
+                view and manage efficiently many years of data.</p>
+            </li>
+            <li id="v5815423" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:11;51:39">
+              <p id="v5815424" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:15;52:42">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                  xtrc="uicontrol:2;52:53">Cluster Usage</uicontrol>: View the number of slots in
+                each state that varies over the time period.</p>
+            </li>
+            <li id="v5815425" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:12;55:39">
+              <p id="v5815426" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:16;56:42">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                  xtrc="uicontrol:3;56:53">Host Usage</uicontrol>: Drill down to the host level and
+                see what servers are used by individuals working on a particular project.</p>
+            </li>
+            <li id="v5815427" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:13;59:39">
+              <p id="v5815428" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:17;60:42">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                  xtrc="uicontrol:4;60:53">Cluster Workload</uicontrol>: Slot status for a
+                particular cluster based on the selected dimension.</p>
+            </li>
+            <li id="v5815429" class="- topic/li "
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+              xtrc="li:14;63:39">
+              <p id="v5815430" class="- topic/p "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                xtrc="p:18;64:42">
+                <uicontrol class="+ topic/ph ui-d/uicontrol "
+                  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/topics/c_cluster_capacity.dita"
+                  xtrc="uicontrol:5;64:53">Data</uicontrol>: Visualize average slots, average CPU
+                usage, and average memory usage data by changing the values on the right.</p>
+            </li>
+          </ul>
+        </p>
+      </section>
+    </conbody>
+  </concept>
+
+</root>
