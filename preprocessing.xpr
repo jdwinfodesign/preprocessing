@@ -28,31 +28,6 @@
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
-                        <String>scenario.associations</String>
-                        <scenarioAssociation-array>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>user-guide-book.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>user-guide-book (JDW preprocess)</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                        </scenarioAssociation-array>
-                    </entry>
-                    <entry>
                         <String>scenarios</String>
                         <scenario-array>
                             <ditaScenario>
