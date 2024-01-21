@@ -7,3 +7,6 @@
 [submodule "dita-ot-4.1.2/plugins/com.jdwinfodesign.html5"]
 	path = dita-ot-4.1.2/plugins/com.jdwinfodesign.html5
 	url = https://github.com/jdwinfodesign/com.jdwinfodesign.html5.git
+[submodule "com.jdwinfodesign.doctypes"]
+	path = com.jdwinfodesign.doctypes
+	url = ../com.jdwinfodesign.doctypes
