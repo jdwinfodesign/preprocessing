@@ -32,11 +32,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>dita-ot-4.1.2/plugins/com.jdw.preprocess/xsl/add-figure-numbers.xsl</String>
+                                    <String>user-guide-book.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>user-guide-book (JDW preprocess)</String>
+                                        <String>user-guide-book (JDWinfodesign HTML5)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -52,7 +52,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>user-guide-book.ditamap</String>
+                                    <String>dita-ot-4.1.2/plugins/com.jdw.preprocess/xsl/add-figure-numbers.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
