@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "urn:pubid:jdwinfodesign.com:doctypes:dita:dtd:concept" "concept.dtd">
+<concept id="c_mv_performance_tab" xml:lang="en-us">
+  <title>System diagnostics</title>
+  <shortdesc>View analysis of cluster status and performance. The data views will indicate whether
+    active clusters are performing as expected or not.</shortdesc>
+  <prolog>
+    <metadata>
+      <prodinfo>
+        <prodname>MobileView</prodname>
+        <vrmlist>
+          <vrm version="1.1" release="GA" modification="b"/>
+        </vrmlist>
+      </prodinfo>
+    </metadata>
+    <metadata>
+      <keywords>
+        <indexterm>MobileView<indexterm>system
+            diagnostics tab</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>The <uicontrol>Troubleshooting</uicontrol> sub-tab provides a data view for cluster modules
+      actively engaged with your project's tasks. The data views provide details regarding the
+      current status and projected performance of the cluster modules.</p>
+    <fig id="fig_ovw_2lh_mr">
+      <title>MobileView System
+        Support Tab: Troubleshooting</title>
+      <image href="../images/ThunderBird-Troubleshooting-sm.png" id="image_vlb_mch_mr"/>
+    </fig>
+    <p>The System Diagnostic troubleshooting agent will run a series of interactive tests to
+      identify and isolate problems within the ClusterView grid. A typical interaction would proceed as follows:<ul id="ul_ht4_jns_mr">
+        <li>User selects the <uicontrol>Troubleshooting Scenario</uicontrol> that best fits the
+          observed situation.</li>
+        <li>A series of tests will run, with results either being captured and displayed
+          automatically or being observed and entered by the user.</li>
+        <li>The result from one test may lead to one or more additional tests being run.</li>
+        <li>One or more problems will be identified, isolated, and confirmed by the tests.</li>
+        <li>One or more resolution measures will be identified.</li>
+        <li>Resolution measures will include references to the applicable task documentation. </li>
+      </ul>
+    </p>
+
+    <p id="p_pl5_x5m_mr">For each cluster module, a data view presents a graph depicting the
+      clusters progress. Three different health indicators signal the current or future processing
+      status: </p>
+    <table id="table_uw5_y24_mr">
+      <title>System health indicators</title>
+      <tgroup cols="3">
+        <colspec colnum="1" colname="col2" colwidth="1.06*"/>
+        <colspec colnum="2" colname="col3" colwidth="1.0*"/>
+        <colspec colnum="3" colname="col4" colwidth="1.0*"/>
+        <thead>
+          <row>
+            <entry colname="col2">
+              <p>Indicator</p>
+            </entry>
+            <entry colname="col3">
+              <p>Status</p>
+            </entry>
+            <entry colname="col4">
+              <p>Description</p>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry colname="col2">
+              <p><image href="../images/operational_icon.png"
+                  id="image_gpx_n3m_mr"/></p>
+            </entry>
+            <entry colname="col3">
+              <p>Healthy</p>
+            </entry>
+            <entry colname="col4">
+              <p>Indicates regular and sustained cluster performance.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2">
+              <p><image href="../images/operational_icon.png"/></p>
+            </entry>
+            <entry colname="col3">
+              <p>Warning</p>
+            </entry>
+            <entry colname="col4">
+              <p>Indicates that the cluster is not performing optimally or cannot address projected
+                workloads.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2">
+              <p><image href="../images/error_icon.png" id="image_dx2_m3m_mr"/></p>
+            </entry>
+            <entry colname="col3">
+              <p>Error</p>
+            </entry>
+            <entry colname="col4">
+              <p>Indicates that the cluster has stopped processing a task.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p>If the cluster has stopped processing a task, it is not performing optimally, or it cannot
+      address projected workloads, you will also receive a notification message alerting you to the
+      problem. Visit the <uicontrol>Diagnostics Tab</uicontrol> to see additional information on the
+      issue, select actions to amend the situation, and monitor the impact of your intervention.</p>
+  </conbody>
+</concept>

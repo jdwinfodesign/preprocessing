@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+  <group>
+    <person name="One of Six"/>
+    <p>
+      <person name="Two of Six"/>
+    </p>
+  </group>
+  <group>
+    <person name="Three of Six"/>
+    <p>
+      <person name="Four of Six"/>
+    </p>
+  </group>
+  <group>
+    <person name="Five of Six"/>
+    <p>
+      <person name="Six of Six"/>
+    </p>
+  </group>
+</people>

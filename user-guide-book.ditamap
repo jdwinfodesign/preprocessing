@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "urn:pubid:jdwinfodesign.com:doctypes:dita:dtd:bookmap" "bookmap.dtd">
+<bookmap>
+  <booktitle>
+    <mainbooktitle>User Guide Book</mainbooktitle>
+  </booktitle>
+  <frontmatter>
+    <preface href="topics/preface.dita"/>
+  </frontmatter>
+  <chapter navtitle="Getting Started" href="topics/concepts.dita">
+    <topicref href="topics/c_architecture_combined.dita"/>
+    <!-- has 1 fig -->
+    <topicref href="topics/t_mv_logging_on.dita"/>
+    <!-- has 1 fig -->
+    <topicref href="topics/c_mv_workspace_tab.dita"/>
+    <!-- has 1 fig -->
+    <topicref href="topics/c_mv_performance_tab.dita">
+      <!-- has 2 figs -->
+      <topicref href="topics/c_mv_performance_tab_01.dita">
+        <!-- has 2 figs -->
+        <topicref href="topics/c_mv_performance_tab_001.dita"/>
+        <!-- has 2 figs -->
+      </topicref>
+    </topicref>
+    <topicref href="topics/c_mv_diagnostics_tab.dita"/>
+    <!-- has 1 fig -->
+    <topicref href="topics/FAQ.dita"/>
+  </chapter>
+  <chapter navtitle="Common Tasks" href="topics/tasks.dita">
+    <topicref href="topics/c_mv_managing_messages.dita"/>
+    <topicref href="topics/c_mv_customize_views.dita">
+      <!-- has 1 fig -->
+      <topicref href="topics/c_cluster_capacity.dita"/>
+    </topicref>
+  </chapter>
+</bookmap>

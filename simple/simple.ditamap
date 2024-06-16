@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "urn:pubid:jdwinfodesign.com:doctypes:dita:dtd:bookmap" "bookmap.dtd">
+<bookmap>
+  <booktitle>
+    <mainbooktitle>User Guide Book</mainbooktitle>
+  </booktitle>
+  <chapter navtitle="Concepts" href="concepts.dita">
+    
+  </chapter>
+  <chapter navtitle="Tasks" href="tasks.dita">
+    
+  </chapter>
+  <chapter navtitle="References" href="references.dita">
+    
+  </chapter>
+</bookmap>
