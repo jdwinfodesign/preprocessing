@@ -5,7 +5,13 @@
     <mainbooktitle>User Guide Book</mainbooktitle>
   </booktitle>
   <chapter navtitle="Concepts" href="concepts.dita">
-    
+    <topicref href="section-concept-01.dita">
+      <!-- 
+      The second fig in the third topic has this xpath
+      -->
+      <!-- /dita/concept[1]/concept[1]/concept[1]/conbody[1]/p[3]/fig[1] -->
+      <topicref href="section-concept-0101.dita"/>
+    </topicref>
   </chapter>
   <chapter navtitle="Tasks" href="tasks.dita">
     
