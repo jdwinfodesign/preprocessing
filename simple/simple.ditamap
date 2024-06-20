@@ -13,10 +13,6 @@
       <topicref href="section-concept-0101.dita"/>
     </topicref>
   </chapter>
-  <chapter navtitle="Tasks" href="tasks.dita">
-    
-  </chapter>
-  <chapter navtitle="References" href="references.dita">
-    
-  </chapter>
+  <chapter navtitle="Tasks" href="tasks.dita"/>
+  <chapter navtitle="References" href="references.dita"/>
 </bookmap>

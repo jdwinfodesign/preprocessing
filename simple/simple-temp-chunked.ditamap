@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?workdir /C:\Users\jdwin\Documents\preprocessing\simple\temp\normalizedDita?>
+<?workdir-uri file:/C:/Users/jdwin/Documents/preprocessing/simple/temp/normalizedDita/?>
+<?path2project?>
+<?path2project-uri ./?>
+<?path2rootmap-uri ./?>
+<bookmap xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+  xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge"
+  class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.3"
+  domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d)"
+  specializations="@props/deliveryTarget" xtrc="bookmap:1;3:10"
+  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap">
+  <booktitle class="- topic/title bookmap/booktitle " xtrc="booktitle:1;4:14"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap">
+    <mainbooktitle class="- topic/ph bookmap/mainbooktitle " xtrc="mainbooktitle:1;5:20"
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap">User Guide
+      Book</mainbooktitle>
+  </booktitle>
+  <chapter chunk="to-content" class="- map/topicref bookmap/chapter " navtitle="Concepts"
+    xtrc="chapter:1;7:72" xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap"
+    href="concepts.dita#concepts" type="concept">
+    <topicmeta class="- map/topicmeta ">
+      <navtitle class="- topic/navtitle ">Concepts</navtitle>
+      <?ditaot gentext?>
+      <linktext class="- map/linktext ">Concepts</linktext>
+    </topicmeta>
+    <topicref class="- map/topicref " xtrc="topicref:1;8:46"
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap"
+      href="concepts.dita#section-concept-01" type="concept">
+      <topicmeta class="- map/topicmeta ">
+        <navtitle class="- topic/navtitle ">Concept-01</navtitle>
+        <?ditaot gentext?>
+        <linktext class="- map/linktext ">Concept-01</linktext>
+      </topicmeta>
+      <topicref class="- map/topicref " xtrc="topicref:2;10:51"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap"
+        href="concepts.dita#section-concept-0101" type="concept">
+        <topicmeta class="- map/topicmeta ">
+          <navtitle class="- topic/navtitle ">Concept-0101</navtitle>
+          <?ditaot gentext?>
+          <linktext class="- map/linktext ">Concept-0101</linktext>
+          <?ditaot genshortdesc?>
+          <shortdesc class="- map/shortdesc "/>
+        </topicmeta>
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter class="- map/topicref bookmap/chapter " navtitle="Tasks" xtrc="chapter:2;13:47"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap" href="tasks.dita"
+    type="concept">
+    <topicmeta class="- map/topicmeta ">
+      <navtitle class="- topic/navtitle ">Tasks</navtitle>
+      <?ditaot gentext?>
+      <linktext class="- map/linktext ">Tasks</linktext>
+    </topicmeta>
+  </chapter>
+  <chapter class="- map/topicref bookmap/chapter " navtitle="References" xtrc="chapter:3;16:57"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap" href="references.dita"
+    type="concept">
+    <topicmeta class="- map/topicmeta ">
+      <navtitle class="- topic/navtitle ">References</navtitle>
+      <?ditaot gentext?>
+      <linktext class="- map/linktext ">References</linktext>
+    </topicmeta>
+  </chapter>
+</bookmap>

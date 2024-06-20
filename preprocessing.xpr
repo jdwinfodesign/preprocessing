@@ -32,7 +32,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>simple (Normalized DITA)</String>
+                                        <String>index (JDW2temp)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
