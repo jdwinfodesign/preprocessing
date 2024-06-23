@@ -35,8 +35,9 @@
       <xsl:variable name="chapterNo">
         <xsl:value-of select="count(ancestor::*/preceding-sibling::chapter) + 1"/>
       </xsl:variable>
+<!-- /bookmap/chapter[1]/topicref[1]/topicref[1]/concept[1]/conbody[1]/p[3]/fig[1] -->
       <xsl:variable name="number">
-        <xsl:value-of select="count(preceding::fig) + 1"/>
+        <xsl:value-of select="count(ancestor::chapter/preceding::fig) + 1"/>
       </xsl:variable>
       <xsl:text>fig </xsl:text>
       <xsl:value-of select="$chapterNo"/>
