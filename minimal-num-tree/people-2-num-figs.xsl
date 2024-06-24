@@ -27,22 +27,20 @@
   <!-- Using the fig template as written on p. 270 repeated 
          the position within the parent, so it was always 1. 
        https://stackoverflow.com/questions/62792615/xslt-find-position-of-node-in-a-given-nodeset
-          does the trick, because it lets you pick the nodeset you are counting within 
-          and still avoids use of xsl:nmumber
+          almost works but does not limit scope to common ancestor
+          
+          have not tried this
+          https://stackoverflow.com/questions/53347701/xslt-need-to-count-number-of-nodes-where-count-is-more-than-1-within-the-parent
   -->
   <xsl:template match="fig">
     <xsl:element name="fig">
       <xsl:variable name="chapterNo">
         <xsl:value-of select="count(ancestor::*/preceding-sibling::chapter) + 1"/>
       </xsl:variable>
-<!-- /bookmap/chapter[1]/topicref[1]/topicref[1]/concept[1]/conbody[1]/p[3]/fig[1] -->
-      <xsl:variable name="number">
-        <xsl:value-of select="count(ancestor::chapter/preceding::fig) + 1"/>
-      </xsl:variable>
       <xsl:text>fig </xsl:text>
       <xsl:value-of select="$chapterNo"/>
       <xsl:text>-</xsl:text>
-      <xsl:value-of select="$number"/>
+      <xsl:number count="fig" level="any" from="chapter"/>
       <xsl:text>: </xsl:text>
       <xsl:value-of select="@name"/>
       <xsl:text>&#xa;</xsl:text>

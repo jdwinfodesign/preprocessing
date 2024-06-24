@@ -5,7 +5,7 @@
   <booktitle>
     <mainbooktitle>User Guide Book</mainbooktitle>
   </booktitle>
-  <chapter>
+  <chapter id="ch01">
     <topicref>
       <concept>
         <title>Concepts</title>
@@ -23,8 +23,8 @@
           <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.</p>
-          <p>Excepteur sint occaecat cupidatat non proident, <fig name="Two of Eight"/> sunt in culpa
-            qui officia deserunt mollit anim id est laborum.</p>
+          <p>Excepteur sint occaecat cupidatat non proident, <fig name="Two of Eight"/> sunt in
+            culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -67,7 +67,7 @@
       </topicref>
     </topicref>
   </chapter>
-  <chapter>
+  <chapter id="ch02">
     <topicref>
       <concept>
         <title>Tasks</title>
@@ -79,8 +79,8 @@
           <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.</p>
-          <p>Excepteur sint occaecat cupidatat non proident, <fig name="Six of Eight"/> sunt in culpa
-            qui officia deserunt mollit anim id est laborum.</p>
+          <p>Excepteur sint occaecat cupidatat non proident, <fig name="Six of Eight"/> sunt in
+            culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -93,7 +93,7 @@
       </concept>
     </topicref>
   </chapter>
-  <chapter>
+  <chapter id="ch03">
     <topicref>
       <concept>
         <title>References</title>
@@ -105,8 +105,8 @@
           <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.</p>
-          <p>Excepteur sint occaecat cupidatat non proident, <fig name="Eight of Eight"/> sunt in culpa
-            qui officia deserunt mollit anim id est laborum.</p>
+          <p>Excepteur sint occaecat cupidatat non proident, <fig name="Eight of Eight"/> sunt in
+            culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
