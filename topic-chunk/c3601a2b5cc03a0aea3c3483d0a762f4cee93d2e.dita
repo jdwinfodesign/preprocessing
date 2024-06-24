@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\jdwin\Documents\preprocessing\simple\temp\preprocess.jdw?><?workdir-uri file:/C:/Users/jdwin/Documents/preprocessing/simple/temp/preprocess.jdw/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public urn:pubid:jdwinfodesign.com:doctypes:dita:dtd:concept?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="section-concept-0101" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="concept:1;3:36" specializations="@props/deliveryTarget">
+  <title class="- topic/title " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="title:1;4:10">Concept-0101</title>
+  <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="shortdesc:1;5:15"/>
+  <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="conbody:1;6:12">
+    <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="p:1;7:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+      qui officia deserunt mollit anim id est laborum.</p>
+    <fig class="- topic/fig " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="fig:1;10:10">
+      <title class="- topic/title " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="title:2;11:14">A picture in a grandchild topic</title>
+      <image href="a6ebd2a8583c223d5577007a0b49bd9f9b005993.jpg" placement="inline" class="- topic/image " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="image:1;12:48">
+        <alt class="- topic/alt " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="alt:1;13:14">A picture</alt>
+      </image>
+    </fig>
+    <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="p:2;16:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+      deserunt mollit anim id est laborum.</p>
+    <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="fig:2;19:61">
+        <title class="- topic/title " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
+        <image href="32377276528cbcfbc4d1521bc51d58fbb008e5eb.jpg" placement="inline" class="- topic/image " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="image:2;21:50">
+          <alt class="- topic/alt " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="alt:2;22:16">A figure in a paragraph</alt>
+        </image>
+      </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="p:4;25:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+      qui officia deserunt mollit anim id est laborum.</p>
+    <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="p:5;28:8">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.</p>
+    <p class="- topic/p " xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/section-concept-0101.dita" xtrc="p:6;31:8">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+      anim id est laborum.</p>
+  </conbody>
+</concept>
