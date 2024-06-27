@@ -12,7 +12,7 @@
       Book</mainbooktitle>
   </booktitle>
   <chapter class="- map/topicref bookmap/chapter "
-    href="0baa9325f97463f42d2008d2ff64e336d98ef581.dita" navtitle="Concepts" xtrc="chapter:1;7:53"
+    href="0baa9325f97463f42d2008d2ff64e336d98ef581.dita" navtitle="Chapter One" xtrc="chapter:1;7:53"
     xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap">
     <topicref class="- map/topicref " href="4cb8a14a0b6c83928ca20a4af956fd6401c082f3.dita"
       xtrc="topicref:1;8:46"
@@ -27,10 +27,10 @@
     </topicref>
   </chapter>
   <chapter class="- map/topicref bookmap/chapter "
-    href="23f8b6fd8b30df6e424b8345e281440f2a33d161.dita" navtitle="Tasks" xtrc="chapter:2;19:48"
+    href="23f8b6fd8b30df6e424b8345e281440f2a33d161.dita" navtitle="Chapter Two" xtrc="chapter:2;19:48"
     xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap"/>
   <chapter class="- map/topicref bookmap/chapter "
-    href="198927e5e6adaf0303c84c706ab0c2acf568a059.dita" navtitle="References"
+    href="198927e5e6adaf0303c84c706ab0c2acf568a059.dita" navtitle="Chapter Three"
     xtrc="chapter:3;20:58" xtrf="file:/C:/Users/jdwin/Documents/preprocessing/simple/simple.ditamap"
   />
 </bookmap>
