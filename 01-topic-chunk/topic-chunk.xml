@@ -19,7 +19,7 @@
       <mainbooktitle class="- topic/ph bookmap/mainbooktitle "
                      xtrc="mainbooktitle:1;5:20"
                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap">User Guide
-      Book</mainbooktitle>
+			Book</mainbooktitle>
    </booktitle>
    <!--Concepts
 -->
@@ -48,9 +48,7 @@
                xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum.</p>
-            <fig class="- topic/fig "
-                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-                 xtrc="fig:1;9:10">
+            <fig>
                <title class="- topic/title "
                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
                       xtrc="title:2;10:14">A picture of something in a chapter</title>
@@ -66,14 +64,13 @@
             </fig>
             <p class="- topic/p "
                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-               xtrc="p:2;15:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+               xtrc="p:2;15:8">
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
       deserunt mollit anim id est laborum.</p>
             <p class="- topic/p "
                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-                    xtrc="fig:2;18:61">
+               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig>
                   <title class="- topic/title "
                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
                          xtrc="title:3;19:16">A figure in a paragraph in a concept about concepts</title>
@@ -127,9 +124,7 @@
                   xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum.</p>
-               <fig class="- topic/fig "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                    xtrc="fig:1;9:10">
+               <fig>
                   <title class="- topic/title "
                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
                          xtrc="title:2;10:14">A picture of something in a concept</title>
@@ -150,9 +145,7 @@
       deserunt mollit anim id est laborum.</p>
                <p class="- topic/p "
                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                  xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                       xtrc="fig:2;18:61">
+                  xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig>
                      <title class="- topic/title "
                             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
                             xtrc="title:3;19:16">A figure in a &lt;p&gt; in a concept</title>
@@ -209,9 +202,7 @@
                      xtrc="p:1;7:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum.</p>
-                  <fig class="- topic/fig "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                       xtrc="fig:1;10:10">
+                  <fig>
                      <title class="- topic/title "
                             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
                             xtrc="title:2;11:14">A picture in a grandchild topic</title>
@@ -232,9 +223,7 @@
       deserunt mollit anim id est laborum.</p>
                   <p class="- topic/p "
                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                     xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                          xtrc="fig:2;19:61">
+                     xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <fig>
                         <title class="- topic/title "
                                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
                                xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
@@ -288,12 +277,10 @@
                            xtrc="conbody:1;6:12">
                      <p class="- topic/p "
                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                        xtrc="p:1;7:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-      qui officia deserunt mollit anim id est laborum.</p>
-                     <fig class="- topic/fig "
-                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                          xtrc="fig:1;10:10">
+                        xtrc="p:1;7:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                     <fig>
                         <title class="- topic/title "
                                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
                                xtrc="title:2;11:14">A picture in a grandchild topic</title>
@@ -309,14 +296,12 @@
                      </fig>
                      <p class="- topic/p "
                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                        xtrc="p:2;16:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-      deserunt mollit anim id est laborum.</p>
+                        xtrc="p:2;16:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+      qui officia deserunt mollit anim id est laborum.</p>
                      <p class="- topic/p "
                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                        xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                             xtrc="fig:2;19:61">
+                        xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <fig>
                            <title class="- topic/title "
                                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
                                   xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
@@ -332,18 +317,18 @@
                         </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                      <p class="- topic/p "
                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                        xtrc="p:4;25:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-      qui officia deserunt mollit anim id est laborum.</p>
+                        xtrc="p:4;25:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                      <p class="- topic/p "
                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                        xtrc="p:5;28:8">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-      mollit anim id est laborum.</p>
+                        xtrc="p:5;28:8">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      officia deserunt mollit anim id est laborum.</p>
                      <p class="- topic/p "
                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                        xtrc="p:6;31:8">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-      anim id est laborum.</p>
+                        xtrc="p:6;31:8">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+      deserunt mollit anim id est laborum.</p>
                   </conbody>
                </concept>
             </topicref>
@@ -377,9 +362,7 @@
                xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum.</p>
-            <fig class="- topic/fig "
-                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-                 xtrc="fig:1;9:10">
+            <fig>
                <title class="- topic/title "
                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
                       xtrc="title:2;10:14">A picture of something</title>
@@ -400,9 +383,7 @@
       deserunt mollit anim id est laborum.</p>
             <p class="- topic/p "
                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-                    xtrc="fig:2;18:61">
+               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig>
                   <title class="- topic/title "
                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
                          xtrc="title:3;19:16">A figure in a paragraph</title>
@@ -460,9 +441,7 @@
                xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum.</p>
-            <fig class="- topic/fig "
-                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-                 xtrc="fig:1;9:10">
+            <fig>
                <title class="- topic/title "
                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
                       xtrc="title:2;10:14">A picture of something</title>
@@ -483,9 +462,7 @@
       deserunt mollit anim id est laborum.</p>
             <p class="- topic/p "
                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-                    xtrc="fig:2;18:61">
+               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig>
                   <title class="- topic/title "
                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
                          xtrc="title:3;19:16">A figure in a paragraph</title>
