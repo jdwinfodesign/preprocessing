@@ -124,48 +124,93 @@
     </xsl:if>
     
   </xsl:template>
-  
-  
-  
-<!-- ========================== -->
-<!-- ========== following is original topic-chunk xsl -->
-<!--  
-  <xsl:template match="*[contains(@class, ' map/topicref ')]">
-    <xsl:comment>
-      <xsl:value-of select="@navtitle"/><xsl:text>&#10;</xsl:text>
-    </xsl:comment>
-    <xsl:choose>
-      <xsl:when test=".[contains(@class, ' bookmap/chapter ')]">
-        <xsl:comment>
-          <xsl:value-of select="@navtitle"/><xsl:text>&#10;</xsl:text>
-        </xsl:comment>
 
-        <xsl:copy>
-          <xsl:apply-templates select="@*"/>
-          <xsl:apply-templates select="document(@href)/*[contains(@class, ' topic/topic ')]"/>
-          <xsl:apply-templates/>
-        </xsl:copy>
+  <!-- This is operating on $fulltoc which has already filtered out all non-meaningful topicrefs and groups,
+        like the <submap> container for referenced maps -->
+  <xsl:template match="*" mode="find-position-in-toc">
+    <!-- jdw 09-26-2022 Count the following siblings if they are topicrefs -->
+    <xsl:variable name="following-siblings">
+      <xsl:value-of select="count(following-sibling::topicref)"/>
+    </xsl:variable>
+    <xsl:variable name="countSelf">
+      <xsl:number format="1" count="
+        *[contains(@class, ' map/topicref ')]
+        [not(contains(@class, ' bookmap/appendix-reference '))]"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="contains(@class, ' bookmap/appendix ')">
+        <!--                <xsl:text>Appendix&#160;</xsl:text>-->
+        <xsl:number format="A" count="*[contains(@class, ' bookmap/appendix ')]" level="any"/>
+      </xsl:when>
+      <xsl:when test="contains(@class, ' bookmap/chapter ')">
+        <!--                <xsl:text>Chapter&#160;</xsl:text>-->
+        <xsl:number format="1" count="*[contains(@class, ' bookmap/chapter ')]" level="any"/>
+      </xsl:when>
+      <xsl:when test="parent::*[contains(@class, ' bookmap/appendix ')]">
+        <xsl:choose>
+          <xsl:when test="contains(@class, ' bookmap/exhibit ')">
+            <!--                        <xsl:text>Exhibit&#160;</xsl:text>-->
+            <xsl:number format="A" count="*[contains(@class, ' bookmap/appendix ')]" level="any"/>
+            <xsl:text>-</xsl:text>
+            <xsl:number format="1" count="*[contains(@class, ' bookmap/exhibit ')]"/>
+          </xsl:when>
+          <xsl:when test="contains(@class, ' bookmap/appendix-ref-num ')">
+            <xsl:text>Appendix&#160;</xsl:text>
+            <xsl:number format="A" count="*[contains(@class, ' bookmap/appendix ')]" level="any"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:choose>
+              <xsl:when test="$countSelf = '1' and $following-siblings = 0">
+                <xsl:apply-templates select="parent::*" mode="find-position-in-toc"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:apply-templates select="parent::*" mode="find-position-in-toc"/>
+                <xsl:text>-</xsl:text>
+                <xsl:number format="1" count="
+                  *[contains(@class, ' map/topicref ')]
+                  [not(contains(@class, ' bookmap/appendix-reference '))]"/>
+              </xsl:otherwise>
+            </xsl:choose>
+            <!--                        <xsl:value-of select="count(following-sibling::topicref)"/>-->
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:when test="parent::*[contains(@class, ' bookmap/chapter ')]">
+        <xsl:choose>
+          <xsl:when test="contains(@class, ' bookmap/exhibit ')">
+            <!--                        <xsl:text>Exhibit&#160;</xsl:text>-->
+            <xsl:number format="1" count="*[contains(@class, ' bookmap/chapter ')]" level="any"/>
+            <xsl:text>-</xsl:text>
+            <xsl:number format="1" count="*[contains(@class, ' bookmap/exhibit ')]"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:apply-templates select="parent::*" mode="find-position-in-toc"/>
+            <xsl:text>-</xsl:text>
+            <xsl:number format="1" count="*[contains(@class, ' map/topicref ')]"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:copy>
-          <xsl:apply-templates select="@*"/>
-          <xsl:apply-templates select="document(@href)/*[contains(@class, ' topic/topic ')]"/>
-          <xsl:apply-templates/>
-        </xsl:copy>
+        <xsl:apply-templates select="parent::*" mode="find-position-in-toc"/>
+        <xsl:text>.</xsl:text>
+        <xsl:number format="1" count="*[contains(@class, ' map/topicref ')]"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
--->
-  <!-- 
-    /bookmap/chapter[1]/topicref[1]/topicref[1]/topicref[1]/concept[1]/conbody[1]/p[3]/fig[1]
-  -->
-
-  <!--  <xsl:template match="*[contains(@class, ' topic/fig ')]">
-    <xsl:copy>
-      <xsl:apply-templates/>
-    </xsl:copy>
+  
+  <xsl:template match="*" mode="define-topic-label">
+    <xsl:choose>
+      <xsl:when test="contains(@class, ' bookmap/appendix ')">
+        <xsl:text>Appendix</xsl:text>
+      </xsl:when>
+      <xsl:when test="contains(@class, ' bookmap/chapter ')">
+        <xsl:text>Section</xsl:text>
+      </xsl:when>
+      <xsl:when test="parent::*[contains(@class, ' bookmap/chapter ')]">
+        <xsl:text>Subsection</xsl:text>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
-  -->
-
+  
 
 </xsl:stylesheet>
