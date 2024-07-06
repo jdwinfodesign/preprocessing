@@ -37,15 +37,4 @@
 
   </xsl:template>
 
-  <!-- 
-    /bookmap/chapter[1]/topicref[1]/topicref[1]/topicref[1]/concept[1]/conbody[1]/p[3]/fig[1]
-  -->
-
-  <!--  <xsl:template match="*[contains(@class, ' topic/fig ')]">
-    <xsl:copy>
-      <xsl:apply-templates/>
-    </xsl:copy>
-  </xsl:template>-->
-
-
 </xsl:stylesheet>
