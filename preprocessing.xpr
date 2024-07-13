@@ -28,11 +28,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>minimal-num-tree/people-2-num-figs.xsl</String>
+                                    <String>01-number-topics/01-number-topics.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>people-2-num-figs</String>
+                                        <String>01-number-topics</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -48,11 +48,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>02-number-figures/number-topics-2-number-figures.xsl</String>
+                                    <String>01-number-topics/01-number-topics.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>number-topics-2-number-figures</String>
+                                        <String>01-number-topics</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -88,31 +88,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>01-number-topics/topic-chunk-2-number-topics.xsl</String>
+                                    <String>minimal-num-tree/people-2-num-figs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>topic-chunk-2-number-topics</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>01-topic-chunk/topic-chunk-2-number-topics.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>topic-chunk-2-number-topics</String>
+                                        <String>people-2-num-figs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -1077,7 +1057,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>number-topics-2-number-figures</String>
+                                    <String>01-number-topics</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -1098,7 +1078,7 @@
                                     <String>${currentFileURL}</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/02-number-figures/number-topics-2-number-figures.ditamap</String>
+                                    <String>${pdu}/01-number-topics/01-number-topics.ditamap</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -1116,7 +1096,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/02-number-figures/number-topics-2-number-figures.xml</String>
+                                    <String>${pd}/01-number-topics/01-number-topics.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -1200,89 +1180,6 @@
                                 </field>
                                 <field name="outputResource">
                                     <String>${pd}/minimal-num-tree/people-2-num-figs.xml</String>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <null/>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>Saxon-PE</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </scenario>
-                            <scenario>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>topic-chunk-2-number-topics</String>
-                                </field>
-                                <field name="baseURL">
-                                    <String></String>
-                                </field>
-                                <field name="footerURL">
-                                    <String></String>
-                                </field>
-                                <field name="fOPMethod">
-                                    <String>pdf</String>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <String>Apache FOP</String>
-                                </field>
-                                <field name="headerURL">
-                                    <String></String>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <String>${pdu}/01-number-topics/topic-chunk-2-number.ditamap</String>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>XML</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputResource">
-                                    <String>${pd}/01-number-topics/topic-chunk-2-number-topics.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
