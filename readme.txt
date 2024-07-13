@@ -1,4 +1,4 @@
-What the hell are these folders supposed to be? 000-simple? 03-add-numbers-to-titles?
+What the hell are these folders supposed to be? 00-simple? 03-add-numbers-to-titles?
 
 Well, calm down. It makes perfect sense. To me. Right now. It may not in the future, so this is a remind-me as much as a readme.
 
