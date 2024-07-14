@@ -8,15 +8,17 @@
   <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>
   <xsl:variable name="msgprefix" select="''"/>
   <xsl:variable name="newline">&#10;</xsl:variable>
-  
+
   <xsl:template match="node() | @*">
     <xsl:copy>
-      <xsl:apply-templates select="node() | @*"/>
+      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
-  
-  <xsl:template match="*[contains(@class, ' map/topicref ')]">
-    <xsl:apply-templates select="document(@href)"/>
+
+  <xsl:template match="chapter">
+    <xsl:element name="chapter">
+      <xsl:apply-templates select="document(@href)//*[contains(@class, ' topic/topic ')]"/>
+    </xsl:element>
   </xsl:template>
 
 </xsl:stylesheet>
