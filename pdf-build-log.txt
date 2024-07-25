@@ -1,0 +1,164 @@
+Executing:
+"C:\Users\jdwin\Documents\preprocessing\dita-ot-4.2/bin/dita.bat" -v -f pdf2 -o C:\Users\jdwin\Documents\preprocessing\00-simple/out/pdf -t C:\Users\jdwin\Documents\preprocessing\00-simple/temp/pdf -i C:\Users\jdwin\Documents\preprocessing\00-simple\simple.ditamap "-Dpdf.formatter=fop" "-Dclean.temp=no" "-Dargs.chapter.layout=BASIC" "-Dxep.failOnError=true"
+
+Initializing project
+
+==> Validate and init input arguments
+Deleting directory C:\Users\jdwin\Documents\preprocessing\00-simple\temp\pdf
+Created dir: C:\Users\jdwin\Documents\preprocessing\00-simple\temp\pdf
+transtype = pdf2
+tempdir = C:\Users\jdwin\Documents\preprocessing\00-simple\temp\pdf
+outputdir = C:\Users\jdwin\Documents\preprocessing\00-simple\out\pdf
+DITA-OT version = 4.2.0
+
+==> Initialize map-first preprocessing
+input = C:\Users\jdwin\Documents\preprocessing\00-simple\simple.ditamap
+
+==> Merge DITAVAL files into temporary file
+
+==> Read input map files to temporary store
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve mapref in ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Profile input map files
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve input map files branch filtering
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve input map files keyref
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve input map files conref push
+
+==> Resolve conref in input map files
+
+==> Profile input map files
+
+==> Read topic files to temporary store
+Reading file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/68fe2f09acf56378c257643570461c15c5f76e01.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+
+==> Topic branch filtering
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve conref in input map files
+
+==> Resolve keyref
+
+==> Resolve conref push
+
+==> Resolve conref in input files
+
+==> Profile input files
+
+==> Normalize same topic fragment identifiers and table column names, and resolve coderef
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/68fe2f09acf56378c257643570461c15c5f76e01.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+==> Move metadata entries
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Loading stylesheet C:\Users\jdwin\Documents\preprocessing\dita-ot-4.2\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Find and generate related link information
+
+==> Pull metadata for link and xref element
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/68fe2f09acf56378c257643570461c15c5f76e01.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+==> Map-first preprocessing topic steps
+
+==> Clean ditamap
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Clean preprocess
+
+==> Copy html files
+
+==> Copy files to the output directory
+
+==> Preprocess post
+
+==> Merge topics
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/68fe2f09acf56378c257643570461c15c5f76e01.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+==> Build FO
+Copying 4 files to C:\Users\jdwin\Documents\preprocessing\00-simple\temp\pdf\Configuration\OpenTopic
+Using document.locale=en
+Processing C:\Users\jdwin\Documents\preprocessing\00-simple\temp\pdf\simple_MERGED.xml to C:\Users\jdwin\Documents\preprocessing\00-simple\temp\pdf/stage1.xml
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/org.dita.pdf2.fop/xsl/fo/topic2fo_shell_fop.xsl
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/org.dita.pdf2.fop/xsl/fo/topic2fo_shell_fop.xsl
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/stage1.xml to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/stage2.fo
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/stage2.fo to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/pdf/topic.fo
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/org.dita.pdf2/xsl/fo/i18n-postprocess.xsl
+
+==> Format PDF
+[WARN] Font "SimSun,normal,700" not found. Substituting with "SimSun,normal,400".
+[INFO] Rendered page #1.
+[INFO] Rendered page #2.
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 5:39)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 9:156)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 22:40)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 26:157)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 39:40)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 43:157)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 56:40)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 60:157)
+[INFO] Rendered page #3.
+[INFO] Rendered page #4.
+[INFO] Rendered page #5.
+[INFO] Rendered page #6.
+[INFO] Rendered page #7.
+[INFO] Rendered page #8.
+[INFO] Rendered page #9.
+[INFO] Rendered page #10.
+[INFO] Rendered page #11.
+[INFO] Rendered page #12.
+[INFO] Rendered page #13.
+[INFO] Rendered page #14.
+[INFO] Rendered page #15.
+[INFO] Rendered page #16.
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 73:40)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 77:157)
+[INFO] Rendered page #17.
+[INFO] Rendered page #18.
+[INFO] Rendered page #19.
+[INFO] Rendered page #20.
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 90:40)
+[WARN] The contents of fo:inline line 1 exceed the available area in the inline-progression direction by more than 50 points. (See position 94:157)
+[INFO] Rendered page #21.
+[INFO] Rendered page #22.
+[INFO] Rendered page #23.
+[INFO] Rendered page #24.
+C:\Users\jdwin\Documents\preprocessing\00-simple\temp\pdf\topic.fo -> C:\Users\jdwin\Documents\preprocessing\00-simple\out\pdf\simple.pdf
+
+BUILD SUCCESSFUL in 4 seconds
+
+The process finished with exit code: 0

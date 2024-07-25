@@ -15,8 +15,8 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="*[contains(@class, ' map/topicref ')]">
-    <xsl:apply-templates select="document(@href)"/>
+  <xsl:template match="//*[contains(@class, ' map/topicref ')]">
+    <xsl:apply-templates select="document(@href)/*[contains(@class, ' topic/topic ')]"/>
   </xsl:template>
 
 </xsl:stylesheet>

@@ -1,0 +1,12 @@
+Count figs per chapter. 
+
+opentopic:map/chapter @id
+key name mapId use chapter/@id
+
+topic/topic @id
+
+variable topic/@id = mapId / opentopic:map/chapter @type
+
+for all figs descendant of this topic that has mapId @type='chapter'
+
+	number them and prepend the spectopicnum from the mapId chapter
