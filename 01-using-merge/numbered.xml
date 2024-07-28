@@ -209,20 +209,19 @@
             xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui officia deserunt mollit anim id est laborum.</p>
-         <fig class="- topic/fig "
-              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-              xtrc="fig:1;9:10"><!--foo bar baz-->
-            <title>A picture of something in a chapter</title>
-            <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
-                   placement="inline"
-                   class="- topic/image "
-                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-                   xtrc="image:1;11:48">
-               <alt class="- topic/alt "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-                    xtrc="alt:1;12:14">A picture</alt>
-            </image>
-         </fig>
+         <!--@topicId: unique_1-->
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                xtrc="title:2;10:14">A picture of something in a chapter</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                xtrc="image:1;11:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                 xtrc="alt:1;12:14">A picture</alt>
+         </image>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
             xtrc="p:2;15:8">
@@ -231,20 +230,18 @@
         deserunt mollit anim id est laborum.</p>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-            xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-                 xtrc="fig:2;18:61"><!--foo bar baz-->
-               <title>A figure in a paragraph in a concept about concepts</title>
-               <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
-                      placement="inline"
-                      class="- topic/image "
-                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-                      xtrc="image:2;20:50">
-                  <alt class="- topic/alt "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
-                       xtrc="alt:2;21:16">A figure in a paragraph</alt>
-               </image>
-            </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <!--@topicId: unique_1--><title class="- topic/title "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                   xtrc="title:3;19:16">A figure in a paragraph in a concept about concepts</title>
+            <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                   placement="inline"
+                   class="- topic/image "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                   xtrc="image:2;20:50">
+               <alt class="- topic/alt "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                    xtrc="alt:2;21:16">A figure in a paragraph</alt>
+            </image>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
             xtrc="p:4;24:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -279,20 +276,19 @@
                xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <fig class="- topic/fig "
-                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                 xtrc="fig:1;9:10"><!--foo bar baz-->
-               <title>A picture of something in a concept</title>
-               <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
-                      placement="inline"
-                      class="- topic/image "
-                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                      xtrc="image:1;11:48">
-                  <alt class="- topic/alt "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                       xtrc="alt:1;12:14">A picture</alt>
-               </image>
-            </fig>
+            <!--@topicId: unique_2-->
+            <title class="- topic/title "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                   xtrc="title:2;10:14">A picture of something in a concept</title>
+            <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                   placement="inline"
+                   class="- topic/image "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                   xtrc="image:1;11:48">
+               <alt class="- topic/alt "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                    xtrc="alt:1;12:14">A picture</alt>
+            </image>
             <p class="- topic/p "
                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
                xtrc="p:2;15:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -300,20 +296,18 @@
           in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p class="- topic/p "
                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                    xtrc="fig:2;18:61"><!--foo bar baz-->
-                  <title>A figure in a &lt;p&gt; in a concept</title>
-                  <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
-                         placement="inline"
-                         class="- topic/image "
-                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                         xtrc="image:2;20:50">
-                     <alt class="- topic/alt "
-                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-                          xtrc="alt:2;21:16">A figure in a paragraph</alt>
-                  </image>
-               </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <!--@topicId: unique_2--><title class="- topic/title "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                      xtrc="title:3;19:16">A figure in a &lt;p&gt; in a concept</title>
+               <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                      placement="inline"
+                      class="- topic/image "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                      xtrc="image:2;20:50">
+                  <alt class="- topic/alt "
+                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                       xtrc="alt:2;21:16">A figure in a paragraph</alt>
+               </image>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p class="- topic/p "
                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
                xtrc="p:4;24:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -351,20 +345,19 @@
                   xtrc="p:1;7:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-               <fig class="- topic/fig "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                    xtrc="fig:1;10:10"><!--foo bar baz-->
-                  <title>A picture in a grandchild topic</title>
-                  <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
-                         placement="inline"
-                         class="- topic/image "
-                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                         xtrc="image:1;12:48">
-                     <alt class="- topic/alt "
-                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                          xtrc="alt:1;13:14">A picture</alt>
-                  </image>
-               </fig>
+               <!--@topicId: unique_3-->
+               <title class="- topic/title "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                      xtrc="title:2;11:14">A picture in a grandchild topic</title>
+               <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                      placement="inline"
+                      class="- topic/image "
+                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                      xtrc="image:1;12:48">
+                  <alt class="- topic/alt "
+                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                       xtrc="alt:1;13:14">A picture</alt>
+               </image>
                <p class="- topic/p "
                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
                   xtrc="p:2;16:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -372,20 +365,18 @@
             in culpa qui officia deserunt mollit anim id est laborum.</p>
                <p class="- topic/p "
                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                  xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                       xtrc="fig:2;19:61"><!--foo bar baz-->
-                     <title>A figure in a paragraph in a grandchild topic</title>
-                     <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
-                            placement="inline"
-                            class="- topic/image "
-                            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                            xtrc="image:2;21:50">
-                        <alt class="- topic/alt "
-                             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-                             xtrc="alt:2;22:16">A figure in a paragraph</alt>
-                     </image>
-                  </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <!--@topicId: unique_3--><title class="- topic/title "
+                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                         xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
+                  <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                         placement="inline"
+                         class="- topic/image "
+                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                         xtrc="image:2;21:50">
+                     <alt class="- topic/alt "
+                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                          xtrc="alt:2;22:16">A figure in a paragraph</alt>
+                  </image>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                <p class="- topic/p "
                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
                   xtrc="p:4;25:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -423,20 +414,19 @@
                      xtrc="p:1;7:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat
               non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <fig class="- topic/fig "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                       xtrc="fig:1;10:10"><!--foo bar baz-->
-                     <title>A picture in a grandchild topic</title>
-                     <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
-                            placement="inline"
-                            class="- topic/image "
-                            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                            xtrc="image:1;12:48">
-                        <alt class="- topic/alt "
-                             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                             xtrc="alt:1;13:14">A picture</alt>
-                     </image>
-                  </fig>
+                  <!--@topicId: unique_4-->
+                  <title class="- topic/title "
+                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                         xtrc="title:2;11:14">A picture in a grandchild topic</title>
+                  <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                         placement="inline"
+                         class="- topic/image "
+                         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                         xtrc="image:1;12:48">
+                     <alt class="- topic/alt "
+                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                          xtrc="alt:1;13:14">A picture</alt>
+                  </image>
                   <p class="- topic/p "
                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
                      xtrc="p:2;16:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -444,20 +434,18 @@
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   <p class="- topic/p "
                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                     xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                          xtrc="fig:2;19:61"><!--foo bar baz-->
-                        <title>A figure in a paragraph in a grandchild topic</title>
-                        <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
-                               placement="inline"
-                               class="- topic/image "
-                               xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                               xtrc="image:2;21:50">
-                           <alt class="- topic/alt "
-                                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-                                xtrc="alt:2;22:16">A figure in a paragraph</alt>
-                        </image>
-                     </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                     xtrc="p:3;19:8">Excepteur sint occaecat cupidatat non proident, <!--@topicId: unique_4--><title class="- topic/title "
+                            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                            xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
+                     <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                            placement="inline"
+                            class="- topic/image "
+                            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                            xtrc="image:2;21:50">
+                        <alt class="- topic/alt "
+                             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                             xtrc="alt:2;22:16">A figure in a paragraph</alt>
+                     </image>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   <p class="- topic/p "
                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
                      xtrc="p:4;25:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -497,20 +485,19 @@
             xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <fig class="- topic/fig "
-              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-              xtrc="fig:1;9:10"><!--foo bar baz-->
-            <title>A picture of something</title>
-            <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
-                   placement="inline"
-                   class="- topic/image "
-                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-                   xtrc="image:1;11:48">
-               <alt class="- topic/alt "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-                    xtrc="alt:1;12:14">A picture</alt>
-            </image>
-         </fig>
+         <!--@topicId: unique_5-->
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                xtrc="title:2;10:14">A picture of something</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                xtrc="image:1;11:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                 xtrc="alt:1;12:14">A picture</alt>
+         </image>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
             xtrc="p:2;15:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -518,20 +505,18 @@
         culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-            xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-                 xtrc="fig:2;18:61"><!--foo bar baz-->
-               <title>A figure in a paragraph</title>
-               <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
-                      placement="inline"
-                      class="- topic/image "
-                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-                      xtrc="image:2;20:50">
-                  <alt class="- topic/alt "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
-                       xtrc="alt:2;21:16">A figure in a paragraph</alt>
-               </image>
-            </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <!--@topicId: unique_5--><title class="- topic/title "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                   xtrc="title:3;19:16">A figure in a paragraph</title>
+            <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                   placement="inline"
+                   class="- topic/image "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                   xtrc="image:2;20:50">
+               <alt class="- topic/alt "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                    xtrc="alt:2;21:16">A figure in a paragraph</alt>
+            </image>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
             xtrc="p:4;24:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -567,20 +552,19 @@
             xtrc="p:1;6:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui officia deserunt mollit anim id est laborum.</p>
-         <fig class="- topic/fig "
-              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-              xtrc="fig:1;9:10"><!--foo bar baz-->
-            <title>A picture of something</title>
-            <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
-                   placement="inline"
-                   class="- topic/image "
-                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-                   xtrc="image:1;11:48">
-               <alt class="- topic/alt "
-                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-                    xtrc="alt:1;12:14">A picture</alt>
-            </image>
-         </fig>
+         <!--@topicId: unique_6-->
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                xtrc="title:2;10:14">A picture of something</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                xtrc="image:1;11:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                 xtrc="alt:1;12:14">A picture</alt>
+         </image>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
             xtrc="p:2;15:8"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -588,20 +572,18 @@
         culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-            xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <fig class="- topic/fig "
-                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-                 xtrc="fig:2;18:61"><!--foo bar baz-->
-               <title>A figure in a paragraph</title>
-               <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
-                      placement="inline"
-                      class="- topic/image "
-                      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-                      xtrc="image:2;20:50">
-                  <alt class="- topic/alt "
-                       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-                       xtrc="alt:2;21:16">A figure in a paragraph</alt>
-               </image>
-            </fig>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            xtrc="p:3;18:8">Excepteur sint occaecat cupidatat non proident, <!--@topicId: unique_6--><title class="- topic/title "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                   xtrc="title:3;19:16">A figure in a paragraph</title>
+            <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                   placement="inline"
+                   class="- topic/image "
+                   xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                   xtrc="image:2;20:50">
+               <alt class="- topic/alt "
+                    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                    xtrc="alt:2;21:16">A figure in a paragraph</alt>
+            </image>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="- topic/p "
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
             xtrc="p:4;24:8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
