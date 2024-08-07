@@ -1,0 +1,90 @@
+Executing:
+"C:\Users\jdwin\Documents\preprocessing\dita-ot-4.2/bin/dita.bat" -v -f preprocess.jdw -o C:\Users\jdwin\Documents\preprocessing\00-simple/out/preprocess.jdw -t C:\Users\jdwin\Documents\preprocessing\00-simple/temp/preprocess.jdw -i C:\Users\jdwin\Documents\preprocessing\00-simple\simple.ditamap "-Dclean.temp=no"
+
+Initializing project
+
+==> Validate and init input arguments
+Deleting directory C:\Users\jdwin\Documents\preprocessing\00-simple\temp\preprocess.jdw
+Created dir: C:\Users\jdwin\Documents\preprocessing\00-simple\temp\preprocess.jdw
+transtype = preprocess.jdw
+tempdir = C:\Users\jdwin\Documents\preprocessing\00-simple\temp\preprocess.jdw
+outputdir = C:\Users\jdwin\Documents\preprocessing\00-simple\out\preprocess.jdw
+DITA-OT version = 4.2.0
+
+==> Initialize map-first preprocessing
+input = C:\Users\jdwin\Documents\preprocessing\00-simple\simple.ditamap
+
+==> Merge DITAVAL files into temporary file
+
+==> Read input map files to temporary store
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve mapref in ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Profile input map files
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve input map files branch filtering
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve input map files keyref
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve input map files conref push
+
+==> Resolve conref in input map files
+
+==> Profile input map files
+
+==> Read topic files to temporary store
+Reading file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/68fe2f09acf56378c257643570461c15c5f76e01.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita to file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+
+==> Topic branch filtering
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Resolve keyref
+
+==> Resolve conref push
+
+==> Resolve conref in input files
+
+==> Profile input files
+
+==> Normalize same topic fragment identifiers and table column names, and resolve coderef
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/68fe2f09acf56378c257643570461c15c5f76e01.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+
+==> Process chunks
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/com.jdwinfodesign.preprocess/xsl/add-topic-numbers.xsl
+Loading stylesheet file:/C:/Users/jdwin/Documents/preprocessing/dita-ot-4.2/plugins/com.jdwinfodesign.preprocess/xsl/add-topic-numbers.xsl
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Move metadata entries
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/c1b0eefdf96b92a595e154dfe86023acb57648b0.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/f11964239e9b4d89df0f782ab5d1acad237143ea.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/68fe2f09acf56378c257643570461c15c5f76e01.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita
+Loading stylesheet C:\Users\jdwin\Documents\preprocessing\dita-ot-4.2\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+Processing file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/975cbb1e5258c9821c0847e4c29ea637b00184ca.ditamap
+
+==> Preprocess JDW
+
+BUILD SUCCESSFUL in 2 seconds
+
+The process finished with exit code: 0

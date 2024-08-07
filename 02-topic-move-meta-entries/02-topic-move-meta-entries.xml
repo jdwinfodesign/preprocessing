@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?workdir /C:\Users\jdwin\Documents\preprocessing\00-simple\temp\preprocess.jdw?>
+<?workdir-uri file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/?>
+<?path2project?>
+<?path2project-uri ./?>
+<?path2rootmap-uri ./?>
+<bookmap xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+  xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge"
+  class="- map/map bookmap/bookmap " ditaarch:DITAArchVersion="1.3"
+  domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d)"
+  specializations="@props/deliveryTarget" xtrc="bookmap:1;3:10"
+  xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap">
+  <booktitle class="- topic/title bookmap/booktitle " xtrc="booktitle:1;4:14"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap">
+    <mainbooktitle class="- topic/ph bookmap/mainbooktitle " xtrc="mainbooktitle:1;5:20"
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap">User Guide
+      Book</mainbooktitle>
+  </booktitle>
+  <chapter class="- map/topicref bookmap/chapter " navtitle="Concepts" spectopicnum="1"
+    xtrc="chapter:1;7:53"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
+    href="68fe2f09acf56378c257643570461c15c5f76e01.dita" type="concept">
+    <topicmeta class="- map/topicmeta ">
+      <navtitle class="- topic/navtitle ">Concepts</navtitle>
+      <?ditaot gentext?>
+      <linktext class="- map/linktext ">Concepts</linktext>
+      <resourceid appid="1" appname="spectopicnum" class="- topic/resourceid " xtrc="chapter:1;7:53"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+      <resourceid appid="d24e10" appname="spectocid" class="- topic/resourceid "
+        xtrc="chapter:1;7:53"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+      <resourceid appid="Chapter" appname="topiclabel" class="- topic/resourceid "
+        xtrc="chapter:1;7:53"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+    </topicmeta>
+    <topicref class="- map/topicref " spectopicnum="1-1" xtrc="topicref:1;8:46"
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
+      href="f11964239e9b4d89df0f782ab5d1acad237143ea.dita" type="concept">
+      <topicmeta class="- map/topicmeta ">
+        <navtitle class="- topic/navtitle ">Concept-01</navtitle>
+        <?ditaot gentext?>
+        <linktext class="- map/linktext ">Concept-01</linktext>
+        <resourceid appid="1-1" appname="spectopicnum" class="- topic/resourceid "
+          xtrc="topicref:1;8:46"
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+        <resourceid appid="d24e11" appname="spectocid" class="- topic/resourceid "
+          xtrc="topicref:1;8:46"
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+        <resourceid appid="" appname="topiclabel" class="- topic/resourceid " xtrc="topicref:1;8:46"
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+      </topicmeta>
+      <topicref class="- map/topicref " spectopicnum="1-1.1" xtrc="topicref:2;9:48"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
+        href="f11964239e9b4d89df0f782ab5d1acad237143ea.dita" type="concept">
+        <topicmeta class="- map/topicmeta ">
+          <navtitle class="- topic/navtitle ">Concept-01</navtitle>
+          <?ditaot gentext?>
+          <linktext class="- map/linktext ">Concept-01</linktext>
+          <resourceid appid="1-1.1" appname="spectopicnum" class="- topic/resourceid "
+            xtrc="topicref:2;9:48"
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+          <resourceid appid="d24e12" appname="spectocid" class="- topic/resourceid "
+            xtrc="topicref:2;9:48"
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+          <resourceid appid="" appname="topiclabel" class="- topic/resourceid "
+            xtrc="topicref:2;9:48"
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+        </topicmeta>
+        <topicref class="- map/topicref " spectopicnum="1-1.1.1" xtrc="topicref:3;14:52"
+          xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
+          href="c1b0eefdf96b92a595e154dfe86023acb57648b0.dita" type="concept">
+          <topicmeta class="- map/topicmeta ">
+            <navtitle class="- topic/navtitle ">Concept-0101</navtitle>
+            <?ditaot gentext?>
+            <linktext class="- map/linktext ">Concept-0101</linktext>
+            <?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "/>
+            <resourceid appid="1-1.1.1" appname="spectopicnum" class="- topic/resourceid "
+              xtrc="topicref:3;14:52"
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+            <resourceid appid="d24e13" appname="spectocid" class="- topic/resourceid "
+              xtrc="topicref:3;14:52"
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+            <resourceid appid="" appname="topiclabel" class="- topic/resourceid "
+              xtrc="topicref:3;14:52"
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+          </topicmeta>
+          <topicref class="- map/topicref " spectopicnum="1-1.1.1.1" xtrc="topicref:4;15:57"
+            xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
+            href="718edcabdedeee9e834a9440986ed2bdfcf55bf6.dita" type="concept">
+            <topicmeta class="- map/topicmeta ">
+              <navtitle class="- topic/navtitle ">Concept-010101</navtitle>
+              <?ditaot gentext?>
+              <linktext class="- map/linktext ">Concept-010101</linktext>
+              <?ditaot genshortdesc?>
+              <shortdesc class="- map/shortdesc "/>
+              <resourceid appid="1-1.1.1.1" appname="spectopicnum" class="- topic/resourceid "
+                xtrc="topicref:4;15:57"
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+              <resourceid appid="d24e14" appname="spectocid" class="- topic/resourceid "
+                xtrc="topicref:4;15:57"
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+              <resourceid appid="" appname="topiclabel" class="- topic/resourceid "
+                xtrc="topicref:4;15:57"
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+            </topicmeta>
+          </topicref>
+        </topicref>
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter class="- map/topicref bookmap/chapter " navtitle="Tasks" spectopicnum="2"
+    xtrc="chapter:2;20:48"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
+    href="9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita" type="concept">
+    <topicmeta class="- map/topicmeta ">
+      <navtitle class="- topic/navtitle ">Tasks</navtitle>
+      <?ditaot gentext?>
+      <linktext class="- map/linktext ">Tasks</linktext>
+      <resourceid appid="2" appname="spectopicnum" class="- topic/resourceid "
+        xtrc="chapter:2;20:48"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+      <resourceid appid="d24e15" appname="spectocid" class="- topic/resourceid "
+        xtrc="chapter:2;20:48"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+      <resourceid appid="Chapter" appname="topiclabel" class="- topic/resourceid "
+        xtrc="chapter:2;20:48"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+    </topicmeta>
+  </chapter>
+  <chapter class="- map/topicref bookmap/chapter " navtitle="References" spectopicnum="3"
+    xtrc="chapter:3;21:58"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
+    href="ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita" type="concept">
+    <topicmeta class="- map/topicmeta ">
+      <navtitle class="- topic/navtitle ">References</navtitle>
+      <?ditaot gentext?>
+      <linktext class="- map/linktext ">References</linktext>
+      <resourceid appid="3" appname="spectopicnum" class="- topic/resourceid "
+        xtrc="chapter:3;21:58"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+      <resourceid appid="d24e16" appname="spectocid" class="- topic/resourceid "
+        xtrc="chapter:3;21:58"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+      <resourceid appid="Chapter" appname="topiclabel" class="- topic/resourceid "
+        xtrc="chapter:3;21:58"
+        xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+    </topicmeta>
+  </chapter>
+</bookmap>

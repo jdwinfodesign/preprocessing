@@ -4,9 +4,12 @@
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
 
-  <xsl:template match="@* | node()">
+  <!--  <xsl:import href="plugin:org.dita.base:xsl/common/dita-utilities.xsl"/>-->
+  <!--  <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>-->
+  
+  <xsl:template match="@*|node()">
     <xsl:copy>
-      <xsl:apply-templates select="@* | node()"/>
+      <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
   </xsl:template>
 
