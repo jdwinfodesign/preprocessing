@@ -9,7 +9,7 @@
 
   <!--  <xsl:import href="plugin:org.dita.base:xsl/common/dita-utilities.xsl"/>-->
   <!--  <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>-->
-  
+
   <xsl:template match="@* | node()">
     <xsl:copy>
       <xsl:apply-templates/>
@@ -22,11 +22,33 @@
       <xsl:apply-templates select="document(descendant-or-self::*/@href)//fig"/>
     </xsl:copy>
   </xsl:template>
-  
+
+  <!--  
   <xsl:template match="fig">
-    <grunt>
-      <xsl:apply-templates/>
-    </grunt>
+    <xsl:apply-templates/>
   </xsl:template>
+-->
+  <!-- 
+    <resourceid appid="Chapter" appname="topiclabel"
+    <resourceid appid="d24e10" appname="spectocid"
+    <resourceid appid="1" appname="spectopicnum"   
+  
+-->
+  <!-- 
+      
+-->
+<xsl:template match="fig">
+  <xsl:element name="fig">
+    <xsl:comment>
+      <xsl:value-of select="ancestor::*[contains(@class, ' topic/topic ')]/@id"/>
+    </xsl:comment>
+    
+    <xsl:text>fig </xsl:text>
+    <xsl:number count="fig" level="any" from="chapter"/>
+    <xsl:value-of select="@name"/>
+    <xsl:text>&#xa;</xsl:text>
+  </xsl:element>
+</xsl:template>
+
 
 </xsl:stylesheet>

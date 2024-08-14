@@ -5,86 +5,39 @@
 <?path2project-uri ./?>
 <?path2rootmap-uri ./?>
 <bookmap xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
-  xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
-  <booktitle>
-    <mainbooktitle>User Guide Book</mainbooktitle>
-  </booktitle>
-  <chapter>
-    <grunt>
-      <title>A picture of something in a chapter</title>
-      <image>
-        <alt>A picture</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A figure in a paragraph in a concept about concepts</title>
-      <image>
-        <alt>A figure in a paragraph</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A picture of something in a concept</title>
-      <image>
-        <alt>A picture</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A figure in a &lt;p&gt; in a concept</title>
-      <image>
-        <alt>A figure in a paragraph</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A picture in a grandchild topic</title>
-      <image>
-        <alt>A picture</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A figure in a paragraph in a grandchild topic</title>
-      <image>
-        <alt>A figure in a paragraph</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A picture in a grandchild topic</title>
-      <image>
-        <alt>A picture</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A figure in a paragraph in a grandchild topic</title>
-      <image>
-        <alt>A figure in a paragraph</alt>
-      </image>
-    </grunt>
-  </chapter>
-  <chapter>
-    <grunt>
-      <title>A picture of something</title>
-      <image>
-        <alt>A picture</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A figure in a paragraph</title>
-      <image>
-        <alt>A figure in a paragraph</alt>
-      </image>
-    </grunt>
-  </chapter>
-  <chapter>
-    <grunt>
-      <title>A picture of something</title>
-      <image>
-        <alt>A picture</alt>
-      </image>
-    </grunt>
-    <grunt>
-      <title>A figure in a paragraph</title>
-      <image>
-        <alt>A figure in a paragraph</alt>
-      </image>
-    </grunt>
-  </chapter>
+         xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+   <booktitle>
+      <mainbooktitle>User Guide
+      Book</mainbooktitle>
+   </booktitle>
+   <chapter>
+      <fig><!--concepts-->fig 1
+</fig>
+      <fig><!--concepts-->fig 2
+</fig>
+      <fig><!--concepts-->fig 1
+</fig>
+      <fig><!--concepts-->fig 2
+</fig>
+      <fig><!--section-concept-0101-->fig 1
+</fig>
+      <fig><!--section-concept-0101-->fig 2
+</fig>
+      <fig><!--section-concept-010101-->fig 1
+</fig>
+      <fig><!--section-concept-010101-->fig 2
+</fig>
+   </chapter>
+   <chapter>
+      <fig><!--tasks-->fig 1
+</fig>
+      <fig><!--tasks-->fig 2
+</fig>
+   </chapter>
+   <chapter>
+      <fig><!--references-->fig 1
+</fig>
+      <fig><!--references-->fig 2
+</fig>
+   </chapter>
 </bookmap>
