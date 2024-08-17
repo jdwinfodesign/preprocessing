@@ -4,51 +4,50 @@
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
 
-  <xsl:variable name="msgprefix" select="''"/>
-  <xsl:variable name="newline">&#10;</xsl:variable>
 
-  <!--  <xsl:import href="plugin:org.dita.base:xsl/common/dita-utilities.xsl"/>-->
-  <!--  <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>-->
 
   <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="bookmap">
     <xsl:copy>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
-
-
-  <xsl:template match="bookmap/chapter | appendix">
-    <xsl:copy>
-      <xsl:apply-templates select="document(descendant-or-self::*/@href)//fig"/>
-    </xsl:copy>
-  </xsl:template>
-
-  <!--  
-  <xsl:template match="fig">
-    <xsl:apply-templates/>
-  </xsl:template>
--->
   <!-- 
-    <resourceid appid="Chapter" appname="topiclabel"
-    <resourceid appid="d24e10" appname="spectocid"
-    <resourceid appid="1" appname="spectopicnum"   
-  
--->
+  05-26-2024 Works as intended p. 268 XSLT Cookbook, 
+    structure similar to map with chapters and figs.
+  -->
   <!-- 
-      
--->
-<xsl:template match="fig">
-  <xsl:element name="fig">
-    <xsl:comment>
-      <xsl:value-of select="ancestor::*[contains(@class, ' topic/topic ')]/@id"/>
-    </xsl:comment>
+  08-17-2024
     
-    <xsl:text>fig </xsl:text>
-    <xsl:number count="fig" level="any" from="chapter"/>
-    <xsl:value-of select="@name"/>
-    <xsl:text>&#xa;</xsl:text>
-  </xsl:element>
-</xsl:template>
+  -->
+  
+  
+  <xsl:template match="*[contains(@class, ' bookmap/chapter ')]">
+    
+    
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      
+      <xsl:for-each select="descendant-or-self::*[contains(@class, ' map/topicref ')]">
+        
+        <xsl:apply-templates select="document(@href)/*[contains(@class, ' topic/topic ')]//fig"/>
+        
+      </xsl:for-each>
 
+    </xsl:copy>
+    
+  </xsl:template>
+
+
+
+  <!-- 
+      <resourceid appid="1" appname="spectopicnum" class="- topic/resourceid " xtrc="chapter:1;7:53"
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"/>
+  -->
 
 </xsl:stylesheet>
