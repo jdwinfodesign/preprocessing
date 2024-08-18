@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?workdir /C:\Users\jdwin\Documents\preprocessing\00-simple\temp\preprocess.jdw?>
+<?workdir-uri file:/C:/Users/jdwin/Documents/preprocessing/00-simple/temp/preprocess.jdw/?>
+<?path2project?>
+<?path2project-uri ./?>
+<?path2rootmap-uri ./?>
+<bookmap xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+         xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
+   <booktitle class="- topic/title bookmap/booktitle "
+              xtrc="booktitle:1;4:14"
+              xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap">
+      <mainbooktitle class="- topic/ph bookmap/mainbooktitle "
+                     xtrc="mainbooktitle:1;5:20"
+                     xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap">User Guide
+      Book</mainbooktitle>
+   </booktitle>
+   <chapter>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+           xtrc="fig:1;9:10">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                xtrc="title:2;10:14">A picture of something in a chapter</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                xtrc="image:1;11:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                 xtrc="alt:1;12:14">A picture</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+           xtrc="fig:2;18:61">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                xtrc="title:3;19:16">A figure in a paragraph in a concept about concepts</title>
+         <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                xtrc="image:2;20:50">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
+                 xtrc="alt:2;21:16">A figure in a paragraph</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+           xtrc="fig:1;9:10">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                xtrc="title:2;10:14">A picture of something in a concept</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                xtrc="image:1;11:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                 xtrc="alt:1;12:14">A picture</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+           xtrc="fig:2;18:61">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                xtrc="title:3;19:16">A figure in a &lt;p&gt; in a concept</title>
+         <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                xtrc="image:2;20:50">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
+                 xtrc="alt:2;21:16">A figure in a paragraph</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+           xtrc="fig:1;10:10">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                xtrc="title:2;11:14">A picture in a grandchild topic</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                xtrc="image:1;12:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                 xtrc="alt:1;13:14">A picture</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+           xtrc="fig:2;19:61">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
+         <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                xtrc="image:2;21:50">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
+                 xtrc="alt:2;22:16">A figure in a paragraph</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+           xtrc="fig:1;10:10">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                xtrc="title:2;11:14">A picture in a grandchild topic</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                xtrc="image:1;12:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                 xtrc="alt:1;13:14">A picture</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+           xtrc="fig:2;19:61">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
+         <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                xtrc="image:2;21:50">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
+                 xtrc="alt:2;22:16">A figure in a paragraph</alt>
+         </image>
+      </fig>
+   </chapter>
+   <chapter>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+           xtrc="fig:1;9:10">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                xtrc="title:2;10:14">A picture of something</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                xtrc="image:1;11:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                 xtrc="alt:1;12:14">A picture</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+           xtrc="fig:2;18:61">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                xtrc="title:3;19:16">A figure in a paragraph</title>
+         <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                xtrc="image:2;20:50">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
+                 xtrc="alt:2;21:16">A figure in a paragraph</alt>
+         </image>
+      </fig>
+   </chapter>
+   <chapter>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+           xtrc="fig:1;9:10">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                xtrc="title:2;10:14">A picture of something</title>
+         <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                xtrc="image:1;11:48">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                 xtrc="alt:1;12:14">A picture</alt>
+         </image>
+      </fig>
+      <fig class="- topic/fig "
+           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+           xtrc="fig:2;18:61">
+         <title class="- topic/title "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                xtrc="title:3;19:16">A figure in a paragraph</title>
+         <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg"
+                placement="inline"
+                class="- topic/image "
+                xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                xtrc="image:2;20:50">
+            <alt class="- topic/alt "
+                 xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
+                 xtrc="alt:2;21:16">A figure in a paragraph</alt>
+         </image>
+      </fig>
+   </chapter>
+</bookmap>

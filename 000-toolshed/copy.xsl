@@ -6,11 +6,14 @@
 
   <!--  <xsl:import href="plugin:org.dita.base:xsl/common/dita-utilities.xsl"/>-->
   <!--  <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>-->
-  
-  <xsl:template match="@*|node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@*|node()"/>
-    </xsl:copy>
-  </xsl:template>
+
+  <xsl:import href="../dita-ot-4.2/plugins/com.jdwinfodesign.preprocess/xsl/number-topics.xsl"/>
+
+  <xsl:variable name="msgprefix" select="''"/>
+  <xsl:variable name="newline">&#10;</xsl:variable>
+
+<!--  <xsl:template match="//*[contains(@class, ' map/topicref ')]">
+    <xsl:apply-templates select="document(@href)/*[contains(@class, ' topic/topic ')]"/>
+  </xsl:template>-->
 
 </xsl:stylesheet>
