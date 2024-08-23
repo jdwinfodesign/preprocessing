@@ -1,0 +1,13 @@
+	01-topic-chunk-output.ditamap
+is pretty much the same as
+	02-get-figs.ditamap
+
+	02-get-figs.xsl
+pretty much just extracts the figs out of the ".//document(@href)//fig" apply-templates rule in the chapter template
+	02-get-figs.xml is the output
+	
+I have been using this as the input for 03-num-figs, because no build target in the transformation produces temporary output with equivalent content 
+
+03-num-figs.xsl simply numbers the figs and outputs 03-num-figs.xml
+
+

@@ -28,6 +28,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>00-simple/simple.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>simple (JDW preprocess)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>03-num-figs/03-num-figs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -78,26 +98,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>00-simple/simple.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>simple (JDW preprocess)</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
