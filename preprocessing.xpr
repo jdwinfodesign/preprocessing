@@ -28,11 +28,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>02-add-topic-numbers/num-figs.xsl</String>
+                                    <String>02-add-topic-numbers/03-num-figs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>num-figs</String>
+                                        <String>03-num-figs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -1100,7 +1100,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>num-figs</String>
+                                    <String>03-num-figs</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
