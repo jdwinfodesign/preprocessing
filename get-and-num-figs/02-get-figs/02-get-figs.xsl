@@ -4,8 +4,9 @@
   <xsl:strip-space elements="*"/>
   <xsl:output method="xml" indent="yes"/>
 
-  <xsl:import href="plugin:org.dita.base:xsl/common/dita-utilities.xsl"/>
-  <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>
+  <!--  <xsl:import href="plugin:org.dita.base:xsl/common/dita-utilities.xsl"/>-->
+  <!--  <xsl:import href="plugin:org.dita.base:xsl/common/output-message.xsl"/>-->
+
   <xsl:variable name="msgprefix" select="''"/>
   <xsl:variable name="newline">&#10;</xsl:variable>
 
@@ -15,16 +16,16 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="chapter">
-    <chapter>
-      <xsl:for-each select="descendant-or-self::*[contains(@class, ' map/topicref ')]">
-        <xsl:apply-templates select="document(@href)//fig"/>
-      </xsl:for-each>
-    </chapter>
+  <xsl:template match="/*[contains(@class, ('bookmap/bookmap'))]">
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
   </xsl:template>
-  
-  <xsl:template match="fig">
-    <xsl:copy-of select="."/>
+
+  <xsl:template match="*[contains(@class, (' bookmap/chapter '))]">
+    <xsl:copy>
+      <xsl:apply-templates select=".//document(@href)//fig"/>
+    </xsl:copy>
   </xsl:template>
 
 </xsl:stylesheet>
