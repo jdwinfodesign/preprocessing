@@ -22,9 +22,12 @@
       </xsl:for-each>
     </chapter>
   </xsl:template>
-  
+
   <xsl:template match="fig">
-    <xsl:copy-of select="."/>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="node()"/>
+    </xsl:copy>
   </xsl:template>
 
 </xsl:stylesheet>
