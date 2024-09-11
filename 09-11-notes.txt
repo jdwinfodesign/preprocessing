@@ -1,0 +1,32 @@
+As of today, the figs can be numbered in the following way. After the initial dita2dita preprocessing, which ends following the topic-chunk target. This is the first file to be modified in the XSL development for the fig numbering. Each step corresponds to an existing or possible build target, contained in several directories as follows.
+
+Directory: 01-topic-chunk-output 
+	
+	The output includes topics referenced by a map, which gets renamed to "01-topic-chunk-output.ditamap01-topic-chunk-output.ditamap"
+	
+	The map gets transformed, using the normal topic-numbering templates contained in the XSL file "add-topic-numbers.xsl".
+	
+	The output includes a rendition of the map, "02-add-topic-numbers.xml". 
+	
+	This produces numbered topics, just like the default transformation. Instead of beginning the XSL development after the topic-numbering is produced, including the step in which it is produced offers an opportunity to investigate modifying that part of the process ing.
+	
+Directory: 02-add-topic-numbers
+	
+	02-add-topic-numbers.ditamap
+	This file is produced by the "add-topic-numbers target", but is nearly identifcal to the file "02-add-topic-numbers.xml" that was output in the previous folder. This will provide the same content as in the normal transformation.
+	
+	03-list-figs.xsl
+	This file copies the opening tag of each chapter, along with its attributes, and applies templates for figs found in documents referenced by the chapter and its child topicrefs. 
+	
+	03-list-figs.xml
+	This contains the opening tags for topicrefs with attributes, then does the same with every figure found in all documents referenced by any topicrefs. 
+	
+	04-num-figs.xsl
+	
+	
+	04-num-figs.xml
+	
+	
+
+
+

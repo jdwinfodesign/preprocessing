@@ -19,6 +19,7 @@
   <chapter class="- map/topicref bookmap/chapter "
     href="68fe2f09acf56378c257643570461c15c5f76e01.dita" navtitle="Concepts" xtrc="chapter:1;7:53"
     xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap" spectopicnum="1">
+    <!-- 1 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita" xtrc="fig:1;9:10">
       <title class="- topic/title "
@@ -33,6 +34,7 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
+    <!-- 2 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita" xtrc="fig:2;18:61">
       <title class="- topic/title "
@@ -47,6 +49,7 @@
           xtrc="alt:2;21:16">A figure in a paragraph</alt>
       </image>
     </fig>
+    <!-- 3 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
       xtrc="fig:1;9:10">
@@ -62,6 +65,7 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
+    <!-- 4 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
       xtrc="fig:2;18:61">
@@ -77,6 +81,7 @@
           xtrc="alt:2;21:16">A figure in a paragraph</alt>
       </image>
     </fig>
+    <!-- 5 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
       xtrc="fig:1;10:10">
@@ -92,6 +97,7 @@
           xtrc="alt:1;13:14">A picture</alt>
       </image>
     </fig>
+    <!-- 6 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
       xtrc="fig:2;19:61">
@@ -107,6 +113,7 @@
           xtrc="alt:2;22:16">A figure in a paragraph</alt>
       </image>
     </fig>
+    <!-- 7 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
       xtrc="fig:1;10:10">
@@ -122,6 +129,7 @@
           xtrc="alt:1;13:14">A picture</alt>
       </image>
     </fig>
+    <!-- 8 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
       xtrc="fig:2;19:61">
@@ -141,6 +149,7 @@
   <chapter class="- map/topicref bookmap/chapter "
     href="9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita" navtitle="Tasks" xtrc="chapter:2;18:48"
     xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap" spectopicnum="2">
+    <!-- 1 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita" xtrc="fig:1;9:10">
       <title class="- topic/title "
@@ -155,6 +164,7 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
+    <!-- 2 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita" xtrc="fig:2;18:61">
       <title class="- topic/title "
@@ -174,6 +184,7 @@
     href="ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita" navtitle="References"
     xtrc="chapter:3;19:58"
     xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap" spectopicnum="3">
+    <!-- 1 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
       xtrc="fig:1;9:10">
@@ -189,6 +200,7 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
+    <!-- 2 -->
     <fig class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
       xtrc="fig:2;18:61">

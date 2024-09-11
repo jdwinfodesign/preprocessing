@@ -15,15 +15,16 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="chapter">
-<!--    <chapter>--><xsl:copy><xsl:apply-templates select="@*"/>
-      <xsl:for-each select="descendant-or-self::*[contains(@class, ' map/topicref ')]">
-        <xsl:apply-templates select="document(@href)//fig"/>
-      </xsl:for-each></xsl:copy>
-    <!--</chapter>-->
+  <!-- 
+  <xsl:template match="fig/title">
+    <xsl:element name="title"><xsl:number count="fig" from="chapter" format="1 "></xsl:number></xsl:element>
   </xsl:template>
+  -->
 
   <xsl:template match="fig">
+    <xsl:comment>
+      <xsl:number count="fig" from="chapter" format=" 1 "/>
+    </xsl:comment>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="node()"/>
