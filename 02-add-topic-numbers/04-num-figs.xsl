@@ -22,11 +22,13 @@
   -->
 
   <xsl:template match="fig">
-    <xsl:comment>
-      <xsl:number count="fig" from="chapter" format=" 1 "/>
-    </xsl:comment>
+    <xsl:variable name="figNum">
+    <xsl:number count="fig" from="chapter" format="1"/>
+    </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="chapNum" select="../@spectopicnum"/>
+      <xsl:attribute name="figNum" select="$figNum"/>
       <xsl:apply-templates select="node()"/>
     </xsl:copy>
   </xsl:template>
