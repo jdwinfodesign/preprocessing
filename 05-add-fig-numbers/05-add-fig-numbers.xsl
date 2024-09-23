@@ -14,21 +14,16 @@
       <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
   </xsl:template>
-
-  <!-- 
-  <xsl:template match="fig/title">
-    <xsl:element name="title"><xsl:number count="fig" from="chapter" format="1 "></xsl:number></xsl:element>
-  </xsl:template>
-  -->
-
+<!--
+    The template for fig will apply templates after defining the new attributes
+    for chapNum and figNum. See the templates that add spectopicnum etc in
+    add-topic-numbers.xsl
+-->
+  
   <xsl:template match="fig">
-    <xsl:variable name="figNum">
-    <xsl:number count="fig" from="chapter" format="1"/>
-    </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:attribute name="chapNum" select="../@spectopicnum"/>
-      <xsl:attribute name="figNum" select="$figNum"/>
+      <xsl:attribute name="figNum">foo</xsl:attribute>
       <xsl:apply-templates select="node()"/>
     </xsl:copy>
   </xsl:template>

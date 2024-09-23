@@ -16,13 +16,16 @@
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap">User Guide
       Book</mainbooktitle>
   </booktitle>
-  <chapter>
-    <fig class="- topic/fig "
-      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita" xtrc="fig:1;9:10">
-      <title class="- topic/title "
+  <chapter class="- map/topicref bookmap/chapter "
+    href="68fe2f09acf56378c257643570461c15c5f76e01.dita" navtitle="Concepts" xtrc="chapter:1;7:53"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap" spectopicnum="1">
+    <fig id="lnk_d25e18" class="- topic/fig "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita" xtrc="fig:1;9:10"
+      chapNum="1" figNum="1">
+      <title id="lnk_d25e20" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
         xtrc="title:2;10:14">A picture of something in a chapter</title>
-      <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
+      <image id="lnk_d25e23" href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
         xtrc="image:1;11:48">
@@ -31,12 +34,13 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
-      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita" xtrc="fig:2;18:61">
-      <title class="- topic/title "
+    <fig id="lnk_d25e35" class="- topic/fig "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita" xtrc="fig:2;18:61"
+      chapNum="1" figNum="2">
+      <title id="lnk_d25e37" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
         xtrc="title:3;19:16">A figure in a paragraph in a concept about concepts</title>
-      <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
+      <image id="lnk_d25e40" href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/concepts.dita"
         xtrc="image:2;20:50">
@@ -45,13 +49,13 @@
           xtrc="alt:2;21:16">A figure in a paragraph</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
+    <fig id="lnk_d23e18" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-      xtrc="fig:1;9:10">
-      <title class="- topic/title "
+      xtrc="fig:1;9:10" chapNum="1" figNum="3">
+      <title id="lnk_d23e20" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
         xtrc="title:2;10:14">A picture of something in a concept</title>
-      <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
+      <image id="lnk_d23e23" href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
         xtrc="image:1;11:48">
@@ -60,13 +64,13 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
+    <fig id="lnk_d23e35" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
-      xtrc="fig:2;18:61">
-      <title class="- topic/title "
+      xtrc="fig:2;18:61" chapNum="1" figNum="4">
+      <title id="lnk_d23e37" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
         xtrc="title:3;19:16">A figure in a &lt;p&gt; in a concept</title>
-      <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
+      <image id="lnk_d23e40" href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-01.dita"
         xtrc="image:2;20:50">
@@ -75,13 +79,13 @@
           xtrc="alt:2;21:16">A figure in a paragraph</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
+    <fig id="lnk_d24e20" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-      xtrc="fig:1;10:10">
-      <title class="- topic/title "
+      xtrc="fig:1;10:10" chapNum="1" figNum="5">
+      <title id="lnk_d24e22" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
         xtrc="title:2;11:14">A picture in a grandchild topic</title>
-      <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
+      <image id="lnk_d24e25" href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
         xtrc="image:1;12:48">
@@ -90,13 +94,13 @@
           xtrc="alt:1;13:14">A picture</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
+    <fig id="lnk_d24e37" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
-      xtrc="fig:2;19:61">
-      <title class="- topic/title "
+      xtrc="fig:2;19:61" chapNum="1" figNum="6">
+      <title id="lnk_d24e39" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
         xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
-      <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
+      <image id="lnk_d24e42" href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-0101.dita"
         xtrc="image:2;21:50">
@@ -105,13 +109,13 @@
           xtrc="alt:2;22:16">A figure in a paragraph</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
+    <fig id="lnk_d27e20" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-      xtrc="fig:1;10:10">
-      <title class="- topic/title "
+      xtrc="fig:1;10:10" chapNum="1" figNum="7">
+      <title id="lnk_d27e22" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
         xtrc="title:2;11:14">A picture in a grandchild topic</title>
-      <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
+      <image id="lnk_d27e25" href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
         xtrc="image:1;12:48">
@@ -120,13 +124,13 @@
           xtrc="alt:1;13:14">A picture</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
+    <fig id="lnk_d27e37" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
-      xtrc="fig:2;19:61">
-      <title class="- topic/title "
+      xtrc="fig:2;19:61" chapNum="1" figNum="8">
+      <title id="lnk_d27e39" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
         xtrc="title:3;20:16">A figure in a paragraph in a grandchild topic</title>
-      <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
+      <image id="lnk_d27e42" href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/section-concept-010101.dita"
         xtrc="image:2;21:50">
@@ -136,13 +140,16 @@
       </image>
     </fig>
   </chapter>
-  <chapter>
-    <fig class="- topic/fig "
-      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita" xtrc="fig:1;9:10">
-      <title class="- topic/title "
+  <chapter class="- map/topicref bookmap/chapter "
+    href="9e3e4dcf77c06e6a65d03e10e60b8e7d877ab172.dita" navtitle="Tasks" xtrc="chapter:2;18:48"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap" spectopicnum="2">
+    <fig id="lnk_d26e18" class="- topic/fig "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita" xtrc="fig:1;9:10"
+      chapNum="2" figNum="1">
+      <title id="lnk_d26e20" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
         xtrc="title:2;10:14">A picture of something</title>
-      <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
+      <image id="lnk_d26e23" href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
         xtrc="image:1;11:48">
@@ -151,12 +158,13 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
-      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita" xtrc="fig:2;18:61">
-      <title class="- topic/title "
+    <fig id="lnk_d26e35" class="- topic/fig "
+      xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita" xtrc="fig:2;18:61"
+      chapNum="2" figNum="2">
+      <title id="lnk_d26e37" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
         xtrc="title:3;19:16">A figure in a paragraph</title>
-      <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
+      <image id="lnk_d26e40" href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/tasks.dita"
         xtrc="image:2;20:50">
@@ -166,14 +174,17 @@
       </image>
     </fig>
   </chapter>
-  <chapter>
-    <fig class="- topic/fig "
+  <chapter class="- map/topicref bookmap/chapter "
+    href="ac53e153bcab1b6e6c1f83d829ee9d700e8d5ca0.dita" navtitle="References"
+    xtrc="chapter:3;19:58"
+    xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap" spectopicnum="3">
+    <fig id="lnk_d28e18" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-      xtrc="fig:1;9:10">
-      <title class="- topic/title "
+      xtrc="fig:1;9:10" chapNum="3" figNum="1">
+      <title id="lnk_d28e20" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
         xtrc="title:2;10:14">A picture of something</title>
-      <image href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
+      <image id="lnk_d28e23" href="8438e75c11d792494a53e4f9efe09fa0b8dedbae.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
         xtrc="image:1;11:48">
@@ -182,13 +193,13 @@
           xtrc="alt:1;12:14">A picture</alt>
       </image>
     </fig>
-    <fig class="- topic/fig "
+    <fig id="lnk_d28e35" class="- topic/fig "
       xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
-      xtrc="fig:2;18:61">
-      <title class="- topic/title "
+      xtrc="fig:2;18:61" chapNum="3" figNum="2">
+      <title id="lnk_d28e37" class="- topic/title "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
         xtrc="title:3;19:16">A figure in a paragraph</title>
-      <image href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
+      <image id="lnk_d28e40" href="8fc10bc311ca369a7f4e6c62150fe55f10736404.jpg" placement="inline"
         class="- topic/image "
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/references.dita"
         xtrc="image:2;20:50">

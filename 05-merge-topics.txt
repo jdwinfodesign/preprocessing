@@ -1,0 +1,9 @@
+05-merge-topics, should maybe be named "merge-files" or something, because the point is to basically replace the un-numbered figs (etc) in the original files with the ones we have extracted and numbered by chapter. 
+
+Not sure how to do this yet, but the first thing I imagined was conreffing from the fig file to the "home" topic. That would just be a matter of automating a conreffing operation. 
+
+That is probably more processor-intensive than is possible, but it's the only way I can assure its accuracy for now. 
+
+I know (I think) the OT used list-files on disk until version 3.5 or so, when it switched to using the temporary files in the working directory (?) before processing those and writing them to the temp directory.
+
+Not sure how to make that work, but my first WAG is using metadata on the numbered fig to match the one in the destination file, then just reapply templates with the new metadta (chapter number and fig number within the chapter). Keys, probably. 
