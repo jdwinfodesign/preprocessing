@@ -14,13 +14,7 @@
       <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
   </xsl:template>
-
-  <!-- 
-  <xsl:template match="fig/title">
-    <xsl:element name="title"><xsl:number count="fig" from="chapter" format="1 "></xsl:number></xsl:element>
-  </xsl:template>
-  -->
-
+  
   <xsl:template match="fig">
     <xsl:variable name="figNum">
       <xsl:number count="fig" from="chapter" format="1"/>

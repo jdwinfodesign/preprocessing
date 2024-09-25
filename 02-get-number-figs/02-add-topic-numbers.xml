@@ -25,7 +25,7 @@
       <resourceid class="- topic/resourceid " appname="spectopicnum" appid="1"
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
         xtrc="chapter:1;7:53"/>
-      <resourceid class="- topic/resourceid " appname="spectocid" appid="d23e14"
+      <resourceid class="- topic/resourceid " appname="spectocid" appid="d5e14"
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
         xtrc="chapter:1;7:53"/>
       <resourceid class="- topic/resourceid " appname="topiclabel" appid="Section"
@@ -42,13 +42,15 @@
         <resourceid class="- topic/resourceid " appname="spectopicnum" appid="1-1"
           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
           xtrc="topicref:1;8:46"/>
-        <resourceid class="- topic/resourceid " appname="spectocid" appid="d23e16"
+        <resourceid class="- topic/resourceid " appname="spectocid" appid="d5e16"
           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
           xtrc="topicref:1;8:46"/>
         <resourceid class="- topic/resourceid " appname="topiclabel" appid="Subsection"
           xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
           xtrc="topicref:1;8:46"/>
       </topicmeta>
+
+
       <topicref class="- map/topicref " href="c1b0eefdf96b92a595e154dfe86023acb57648b0.dita"
         xtrc="topicref:2;13:50"
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
@@ -59,7 +61,7 @@
           <resourceid class="- topic/resourceid " appname="spectopicnum" appid="1-1.1"
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
             xtrc="topicref:2;13:50"/>
-          <resourceid class="- topic/resourceid " appname="spectocid" appid="d23e18"
+          <resourceid class="- topic/resourceid " appname="spectocid" appid="d5e18"
             xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
             xtrc="topicref:2;13:50"/>
           <resourceid class="- topic/resourceid " appname="topiclabel" appid=""
@@ -76,7 +78,7 @@
             <resourceid class="- topic/resourceid " appname="spectopicnum" appid="1-1.1.1"
               xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
               xtrc="topicref:3;14:55"/>
-            <resourceid class="- topic/resourceid " appname="spectocid" appid="d23e20"
+            <resourceid class="- topic/resourceid " appname="spectocid" appid="d5e20"
               xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
               xtrc="topicref:3;14:55"/>
             <resourceid class="- topic/resourceid " appname="topiclabel" appid=""
@@ -96,7 +98,7 @@
       <resourceid class="- topic/resourceid " appname="spectopicnum" appid="2"
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
         xtrc="chapter:2;18:48"/>
-      <resourceid class="- topic/resourceid " appname="spectocid" appid="d23e25"
+      <resourceid class="- topic/resourceid " appname="spectocid" appid="d5e25"
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
         xtrc="chapter:2;18:48"/>
       <resourceid class="- topic/resourceid " appname="topiclabel" appid="Section"
@@ -114,7 +116,7 @@
       <resourceid class="- topic/resourceid " appname="spectopicnum" appid="3"
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
         xtrc="chapter:3;19:58"/>
-      <resourceid class="- topic/resourceid " appname="spectocid" appid="d23e27"
+      <resourceid class="- topic/resourceid " appname="spectocid" appid="d5e27"
         xtrf="file:/C:/Users/jdwin/Documents/preprocessing/00-simple/simple.ditamap"
         xtrc="chapter:3;19:58"/>
       <resourceid class="- topic/resourceid " appname="topiclabel" appid="Section"

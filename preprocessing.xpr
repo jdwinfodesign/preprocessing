@@ -28,16 +28,16 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>00-simple/simple.ditamap</String>
+                                    <String>02-get-number-figs/04-num-figs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>simple (JDW preprocess) number figs</String>
+                                        <String>04-num-figs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
-                                        <String>DITAMAP</String>
+                                        <String>XML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -48,11 +48,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>05-add-fig-numbers/05-add-fig-numbers.xsl</String>
+                                    <String>02-get-number-figs/03-list-figs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>05-add-fig-numbers</String>
+                                        <String>04-num-figs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -88,6 +88,26 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>00-simple/simple.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>simple (JDW preprocess)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>02-to-04-add-topic-numbers/04-num-figs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -113,6 +133,26 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>03-list-figs</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>05-add-fig-numbers/05-add-fig-numbers.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>05-add-fig-numbers</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -1426,7 +1466,7 @@
                                     <String>${currentFileURL}</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/02-to-04-add-topic-numbers/02-add-topic-numbers.ditamap</String>
+                                    <String>${pdu}/02-get-number-figs//02-add-topic-numbers.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -1509,7 +1549,7 @@
                                     <String>${currentFileURL}</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/02-to-04-add-topic-numbers/03-list-figs.xml</String>
+                                    <String>${pdu}/02-get-number-figs/03-list-figs.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
