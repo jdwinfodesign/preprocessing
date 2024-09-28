@@ -28,7 +28,27 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>02-get-number-figs/04-num-figs.xsl</String>
+                                    <String>05-add-fig-numbers/simple.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>simple (JDW preprocess) number figs</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>dita-ot-4.1.2/plugins/com.jdw.preprocess/xsl/list-figs.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -73,6 +93,46 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>01-topic-chunk-2-add-topic-numbers</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>05-add-fig-numbers/05-add-fig-numbers.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>05-add-fig-numbers</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>02-get-number-figs/04-num-figs.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>04-num-figs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -133,26 +193,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>03-list-figs</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>05-add-fig-numbers/05-add-fig-numbers.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>05-add-fig-numbers</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -490,10 +530,10 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>${cfd}/out/number-figs</String>
+                                    <String>${cfd}/out/preprocess-num-figs.jdw</String>
                                 </field>
                                 <field name="tempDir">
-                                    <String>${cfd}/temp/number-figs</String>
+                                    <String>${cfd}/temp/preprocess-num-figs.jdw</String>
                                 </field>
                                 <field name="transtype">
                                     <String>preprocess.jdw</String>
