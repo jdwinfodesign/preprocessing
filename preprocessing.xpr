@@ -32,7 +32,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>simple (JDW preprocess) number figs</String>
+                                        <String>user-guide-book (HTML5)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -53,6 +53,26 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>04-num-figs</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>05-add-fig-numbers/05-add-fig-numbers.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>05-add-fig-numbers</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -93,26 +113,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>01-topic-chunk-2-add-topic-numbers</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>05-add-fig-numbers/05-add-fig-numbers.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>05-add-fig-numbers</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -1041,7 +1041,38 @@
                                     <String></String>
                                 </field>
                                 <field name="ditaParams">
-                                    <list/>
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.temp</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
                                 </field>
                                 <field name="jvmArgs">
                                     <String></String>
