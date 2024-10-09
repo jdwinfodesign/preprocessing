@@ -32,7 +32,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>simple (JDWinfodesign HTML5)</String>
+                                        <String>simple (JDW preprocess) number figs</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
