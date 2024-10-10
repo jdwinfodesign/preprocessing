@@ -1,0 +1,8 @@
+org.dita.base\xsl\preprocess\maplinkImpl.xsl														<xsl:with-param name="inputMap" select="substring-after($inputMap, '/')"/>
+
+																															<xsl:with-param name="inputMap" select="substring-after($inputMap, '/')"/>
+																															<xsl:with-param name="inputMap" select="$INPUTMAP"/>
+																															<xsl:with-param name="infile"  select="@href"/>
+																															<xsl:with-param name="infile"  select="$infile"/>
+																															<xsl:with-param name="infile"        select="$infile"/>
+																															

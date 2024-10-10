@@ -77,7 +77,9 @@
       <xslt basedir="${dita.temp.dir}"
         style="${dita.plugin.com.jdw.preprocess.jdw.dir}/xsl/read-job.xsl"
         in="${dita.temp.dir}/.job.xml"
-        out="${dita.temp.dir}/jobCopy.xml"/>
+        out="${dita.temp.dir}/jobCopy.xml">
+        <param name="args.input" expression="${args.input}"/>
+      </xslt>
     </pipeline>
   </target>
   <!-- ============================================================= -->

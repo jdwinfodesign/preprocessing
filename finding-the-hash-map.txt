@@ -1,0 +1,26 @@
+In the .jobs.xml
+
+  <property name="user.input.file">
+    <string>bf4849513c0985714747004f9c2a196558a8ff9f.ditamap</string>
+  </property>
+  
+    <property name="InputMapDir">
+    <string>C:\Users\jdwin\Documents\preprocessing\05-add-fig-numbers\simple.ditamap</string>
+  </property>
+  
+    <property name="InputMapDir.uri">
+    <string>file:/C:/Users/jdwin/Documents/preprocessing/05-add-fig-numbers/simple.ditamap</string>
+  </property>
+  
+      <file 
+	  src="file:/C:/Users/jdwin/Documents/preprocessing/05-add-fig-numbers/simple.ditamap"
+      uri="bf4849513c0985714747004f9c2a196558a8ff9f.ditamap"
+      path="bf4849513c0985714747004f9c2a196558a8ff9f.ditamap"
+      result="file:/C:/Users/jdwin/Documents/preprocessing/05-add-fig-numbers/simple.ditamap"
+      format="ditamap" 
+	  input="true"/>
+	  
+	  property @name="user.input.file"						<string>bf4849513c0985714747004f9c2a196558a8ff9f.ditamap</string>
+	  property @name="InputMapDir.uri"					<string>file:/C:/Users/jdwin/Documents/preprocessing/05-add-fig-numbers/simple.ditamap</string>
+	  
+	  

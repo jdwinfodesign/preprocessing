@@ -1,0 +1,12 @@
+
+<xsl:param name="inputMap" as="xs:string"/>
+
+<xsl:param name="infile" select="@href"/>
+
+<xsl:param name="infile"/>
+
+<xsl:param name="input.map.url" as="xs:string?"/>
+
+<xsl:param name="input" as="xs:string"/>
+
+<xsl:param name="input.dir.url"/>
