@@ -16,9 +16,6 @@
   <xsl:variable name="newline">&#10;</xsl:variable>
 
   <xsl:param name="args.input"/>
-  <!-- 
-  C:\Users\jdwin\Documents\preprocessing\05-add-fig-numbers\simple.ditamap
-  -->
 
   <xsl:template match="@* | node()">
     <xsl:copy>
@@ -27,30 +24,25 @@
   </xsl:template>
 
   <xsl:template match="/">
-    <xsl:comment>
-      <xsl:value-of select="$args.input"/>
-    </xsl:comment>
-    <foo>
+    <xsl:variable name="mainMap">
+      <xsl:value-of select="tokenize($args.input, '\\')[last()]"/>
+    </xsl:variable>
+    <xsl:variable name="hashMap">
+      <xsl:value-of select="//file[contains(@src, $mainMap)]/@uri"/>
+    </xsl:variable>
+    <job>
       <p>
-        <xsl:value-of select="$args.input"/>
+        <xsl:text>mainMap: </xsl:text><xsl:value-of select="$mainMap"/>
       </p>
       <p>
-        <xsl:value-of select="tokenize($args.input, '\\')[last()]"/>
+        <xsl:text>hashMap: </xsl:text><xsl:value-of select="$hashMap"/>
       </p>
-    </foo>
+    </job>
   </xsl:template>
-
+  
   <!-- 
-  C:\xml\inwork\bookmap\preview\lessonName
   
-  To get 'lessonName' tried using 
-   
-  <substring-after($filePath, '/')[last[])"/>             and 
-  <substring-after((tokenize($filePath, '/')[last[])"/> 
-  
-  Tokenize the path based on the separator '\', which must be escaped with a second '\'
-  
-  <xsl:value-of select="tokenize($filePath, '\\')[last()]"/>
+  file[contains(@src, '$mainMap')]/@uri
   
   -->
 
