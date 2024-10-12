@@ -17,12 +17,6 @@
 
   <xsl:param name="args.input"/>
 
-  <xsl:template match="@* | node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:copy>
-  </xsl:template>
-
   <xsl:template match="/">
     <xsl:variable name="mainMap">
       <xsl:value-of select="tokenize($args.input, '\\')[last()]"/>
@@ -31,19 +25,13 @@
       <xsl:value-of select="//file[contains(@src, $mainMap)]/@uri"/>
     </xsl:variable>
     <job>
-      <p>
-        <xsl:text>mainMap: </xsl:text><xsl:value-of select="$mainMap"/>
-      </p>
-      <p>
-        <xsl:text>hashMap: </xsl:text><xsl:value-of select="$hashMap"/>
-      </p>
+      <mainMap>
+        <xsl:value-of select="$mainMap"/>
+      </mainMap>
+      <hashMap>
+        <xsl:value-of select="$hashMap"/>
+      </hashMap>
     </job>
   </xsl:template>
-  
-  <!-- 
-  
-  file[contains(@src, '$mainMap')]/@uri
-  
-  -->
 
 </xsl:stylesheet>

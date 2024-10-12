@@ -58,7 +58,7 @@ But, it's trivial to clean it up.
 
 <target name="testCallback" 
 		description="Test CallBack" depends="-testcb">				<<< Not too much difference so far.
-  <echo>a = ${a}</echo>
+  <echo>a = ${a}</echo>																	 This code block is equivalent to 
   <echo>b = ${b}</echo>
 </target>
 
@@ -66,3 +66,5 @@ But, it's trivial to clean it up.
   <property name="a" value="A"/>											<<< Trivial to clean up. 
   <property name="b" value="B"/>
 </target>
+
+<xmlproperty...> can set properties from a properties file. Using it in the list-files target. 

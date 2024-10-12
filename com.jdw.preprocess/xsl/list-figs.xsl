@@ -9,8 +9,6 @@
   <xsl:variable name="msgprefix" select="''"/>
   <xsl:variable name="newline">&#10;</xsl:variable>
   
-  <xsl:param name="args.input"/>
-  
   <xsl:template match="@* | node()">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()"/>
@@ -27,23 +25,6 @@
   </xsl:template>
 
   <xsl:template match="fig">
-    <!-- how to use temp dir as var -->
-    <xsl:variable name="mainMap">
-      <xsl:value-of select="tokenize($args.input, '\\')[last()]"/>
-    </xsl:variable>
-    <xsl:variable name="hashMap">
-      <xsl:value-of select="//file[contains(@src, $mainMap)]/@uri"/>
-    </xsl:variable>
-    <xsl:comment>
-      <xsl:text>mainMap: </xsl:text><xsl:value-of select="$mainMap"/>
-    </xsl:comment>
-    <xsl:comment>
-      <xsl:text>hashMap: </xsl:text><xsl:value-of select="$hashMap"/>
-    </xsl:comment>
-    <!-- ========================== -->
-    <xsl:message>
-      <xsl:value-of select=""/>
-    </xsl:message>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="node()"/>
