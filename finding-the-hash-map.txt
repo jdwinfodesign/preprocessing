@@ -23,4 +23,46 @@ In the .jobs.xml
 	  property @name="user.input.file"						<string>bf4849513c0985714747004f9c2a196558a8ff9f.ditamap</string>
 	  property @name="InputMapDir.uri"					<string>file:/C:/Users/jdwin/Documents/preprocessing/05-add-fig-numbers/simple.ditamap</string>
 	  
-	  
+	  Stripped the text before the main map file name and used it to find the hashed name in the .job.xml file.
+	  Assigned a variable name to it in a separate build target/transformation. I could not figure out how to combine that step with an existing build step, as to avoid having to create yet another target/transformation.
+
+	Then, I found that the "antcall" task could send a property name from one target to another, so this hash name could get passed in the build file instead of having to use XSL. But, it only forwards the variable (property, whatever), it does not get anything back. Turns out there is a third-party Ant task that does that. Calls a target to do something (like a transformation) and have the resulting value returned to it. 
+	
+	antcallback has to be built from source. There are no releases. Newest version of the project I see is here: https://cniweb.github.io/ant-contrib/
+	
+	btw, if you ever use antcallback, you must unset the variable value if you want to reuse in the same build. 
+	https://stackoverflow.com/questions/23624051/ant-contrib-antcallback-always-returns-same-value
+	
+	But wait! There's more. antcallback and antcall both are somewhat costly, processing-wise. And antcallback has to be built, which I would rather not do _right now_ (though if this is successful, I may use it as an improvement later on), antcall has a not-too-onerous way of calling another target.
+	
+For example, output from antcallback is nice and clean.
+<target name="testCallback" description="Test CallBack">
+  <antcallback target="-testcb" return="a, b"/>							<<< see antcallback using the -testcb target?
+  <echo>a = ${a}</echo>
+  <echo>b = ${b}</echo>
+</target>
+
+<target name="-testcb">															<<< the -testcb target simply sets the property values
+  <property name="a" value="A"/>
+  <property name="b" value="B"/>
+</target>
+
+See where it says "return='a, b'"? 												
+a = A																							<<< See how nice that is? Probably exactly what you want. 
+b = B
+Compare to the antcall output.
+a = ${a}																						<<< Produces properties instead of the values.
+b = ${b}
+
+But, it's trivial to clean it up.
+
+<target name="testCallback" 
+		description="Test CallBack" depends="-testcb">				<<< Not too much difference so far.
+  <echo>a = ${a}</echo>
+  <echo>b = ${b}</echo>
+</target>
+
+<target name="-testcb">
+  <property name="a" value="A"/>											<<< Trivial to clean up. 
+  <property name="b" value="B"/>
+</target>
