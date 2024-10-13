@@ -32,15 +32,30 @@
   <!-- Add a target to count the figs in a topic    -->
   <!-- removing number-topics from depends for test -->
   <!-- ⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊⇊ -->
-
-  <target name="preprocess2.topics.preprocess.jdw" depends="read-job">
+  
+  <target name="preprocess2.topics.preprocess.jdw"
+    depends="topic-reader,
+    topic-branch-filter,
+    topic-keyref,
+    topic-copy-to,
+    topic-conrefpush,
+    topic-conref,
+    topic-profile,
+    preprocess2.topic-fragment,
+    topic-chunk,
+    add-identifiers,
+    number-topics,
+    
+    list-figs,
+    number-figs"
+  />
+  <!--  <target name="preprocess2.topics.preprocess.jdw">
     <fileset id="dist.contents" dir="${dita.temp.dir}" includes="*"/> 
     <property name="prop.dist.contents" refid="dist.contents"/>
-    
     <echo message="args.input: ${args.input}"/>
     <echo message="dita.temp.dir: ${dita.temp.dir}"/>
     <echo>temp dir: ${prop.dist.contents}</echo>
-  </target>
+  </target>-->
   
   <!-- where to add @id's for figs? 
        Can be added just before number-topics, but 
@@ -71,18 +86,6 @@
     topic-topicpull"/>
    ======================================= -->
   <!-- ============================================================= -->
-  <!-- .job file -->
-  <target name="read-job">
-    <pipeline message="Get stuff out of job file" taskname="read job file">
-      <xslt basedir="${dita.temp.dir}"
-        style="${dita.plugin.com.jdw.preprocess.jdw.dir}/xsl/read-job.xsl"
-        in="${dita.temp.dir}/.job.xml"
-        out="${dita.temp.dir}/jobCopy.xml">
-        <param name="args.input" expression="${args.input}"/>
-      </xslt>
-    </pipeline>
-  </target>
-  <!-- ============================================================= -->
   <!-- Add ID attribute to all block level elements -->
   <target name="add-identifiers">
     <pipeline message="Add IDs to blocks" taskname="add-identifiers">
@@ -106,35 +109,54 @@
     </pipeline>
   </target>
   
-  <!-- topics are numbered, figs should be listed (for now in an external process -->
-  <!-- this is where we will need to merge the numbered figs back into the topics -->
-  <!-- they were pulled from -->
-  <!-- it is too early in the process to sweep the metadata into the topics -->
-  <!-- so try duplicating the number-topics target above -->
-  <!-- I just noticed the answer to a question I have had about how prefixing titles worked -->
-  <!-- there are templates in there for maps and topics alike -->
-  <!-- made possible by the two ditaFilesets below, one for maps, one for topics -->
-  <!-- first, list figs by chapter -->
+  <!-- ============================================================= -->
+  <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
   
-  <target name="list-figs">
-    <property name="mainMapFile" value="${dita.temp.dir}/bf4849513c0985714747004f9c2a196558a8ff9f.ditamap"/>
-    <echo message="dita.temp.dir: ${dita.temp.dir}"/>
-    <echo message="mainMapFile: ${mainMapFile}"/>
-    <!-- 
-    /job/property[1]/@name
-    -->
+  <!-- list figures for numbering, using the map with the hashed name as input -->
+  <target name="list-figs" depends="read-job">
+    
+  <!--<property name="mainMapFile" value="${dita.temp.dir}/bf4849513c0985714747004f9c2a196558a8ff9f.ditamap"/>-->
+    
     <property name="jobFile" value="${dita.temp.dir}/.job.xml"></property>
     <echo message="jobFile: ${jobFile}"/>
+    <xmlproperty file="${dita.temp.dir}/jobCopy.xml" keeproot="false"/>
+    <echo>================================</echo>
+    <echo>${mainMap}</echo>
+    <echo>${hashMap}</echo>
+    <echo>================================</echo>
+    
     <pipeline message="Listing figs" taskname="number-figs">
-      
       <xslt basedir="${dita.temp.dir}"
         style="${dita.plugin.com.jdw.preprocess.jdw.dir}/xsl/list-figs.xsl"
-        in="${mainMapFile}"
+        in="${dita.temp.dir}/${hashMap}"
         out="${dita.temp.dir}/list.xml">
       </xslt>
     </pipeline>
   </target>
   
+  <!-- Get the hashed name of the main map -->
+  <!-- .job file -->
+  <target name="read-job">
+    <pipeline message="Get hashed name of main map" taskname="read .job.xml">
+      <xslt basedir="${dita.temp.dir}"
+        style="${dita.plugin.com.jdw.preprocess.jdw.dir}/xsl/read-job.xsl"
+        in="${dita.temp.dir}/.job.xml"
+        out="${dita.temp.dir}/jobCopy.xml">
+        <param name="args.input" expression="${args.input}"/>
+      </xslt>
+    </pipeline>
+  </target>
+  
+  <!-- read these from jobCopy.xml -->
+  <!-- 
+        /job/properties/mainMap
+        /job/properties/hashMap
+  -->
+<!--  <target name="getHashMap">
+    <xmlproperty file="jobCopy.xml" keeproot="false"/>
+  </target>-->
+      
+  <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
   <!-- ============================================================================ -->
   <target name="number-figs">
     <echo message="Numbering figures"/>

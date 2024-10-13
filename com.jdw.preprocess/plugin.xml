@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin id="com.jdw.preprocess.jdw">
+<plugin id="com.jdw.preprocess.jdw">  
 	<require plugin="org.dita.normalize"/>
 	<transtype name="preprocess.jdw" desc="JDW preprocess"/>
 	<feature extension="ant.import" file="build_preprocess.jdw.xml"/>
